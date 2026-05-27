@@ -15,7 +15,7 @@ export function Footer() {
               alt="CS Digital Marketing"
               width={100}
               height={34}
-              className="h-28 w-auto opacity-70"
+              className="h-16 w-auto opacity-70"
             />
             <p className="text-sm mt-3 leading-relaxed">
               Helping local businesses in Mandurah and surrounding areas get

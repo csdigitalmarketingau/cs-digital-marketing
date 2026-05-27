@@ -19,14 +19,14 @@ export function Header() {
 
   return (
     <header className="bg-navy text-white sticky top-0 z-50 shadow-lg shadow-navy-dark/20">
-      <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
+      <div className="max-w-6xl mx-auto px-6 py-2 flex items-center justify-between">
         <Link href="/" className="flex items-center">
           <Image
             src="/logo.png"
             alt="CS Digital Marketing"
             width={120}
             height={40}
-            className="h-32 w-auto"
+            className="h-14 w-auto"
             priority
           />
         </Link>
