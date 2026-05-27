@@ -32,8 +32,8 @@ export default function Home() {
           className="object-cover"
           priority
         />
-        <div className="absolute inset-0 bg-gradient-to-br from-navy-dark/95 via-navy/90 to-navy-dark/95" />
-        <div className="absolute inset-0 hero-gradient opacity-60" />
+        <div className="absolute inset-0 bg-gradient-to-br from-navy-dark/90 via-navy/80 to-navy-dark/85" />
+        <div className="absolute inset-0 hero-gradient opacity-40" />
         <div className="max-w-6xl mx-auto px-6 relative z-10">
           <div className="max-w-3xl">
             <div className="animate-fade-up">

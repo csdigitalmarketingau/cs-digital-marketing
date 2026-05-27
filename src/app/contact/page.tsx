@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import type { FormEvent } from "react";
+import Image from "next/image";
 
 export default function Contact() {
   const [name, setName] = useState("");
@@ -56,21 +57,26 @@ export default function Contact() {
   return (
     <>
       {/* Hero */}
-      <section className="hero-gradient text-white py-20 md:py-28 relative">
+      <section className="relative text-white py-20 md:py-28 overflow-hidden">
+        <Image src="/mandurah-aerial.jpg" alt="" fill className="object-cover" />
+        <div className="absolute inset-0 bg-gradient-to-br from-navy-dark/90 via-navy/80 to-navy-dark/85" />
+        <div className="absolute inset-0 hero-gradient opacity-40" />
         <div className="max-w-6xl mx-auto px-6 text-center relative z-10">
-          <span className="inline-flex items-center gap-2 text-gold/90 text-xs font-semibold uppercase tracking-widest mb-6">
-            <span className="w-8 h-px bg-gold/60" />
-            Contact Us
-            <span className="w-8 h-px bg-gold/60" />
-          </span>
-          <h1 className="text-4xl md:text-5xl font-bold mb-5 tracking-tight">
+          <div className="animate-fade-up">
+            <span className="inline-flex items-center gap-2 text-gold/90 text-xs font-semibold uppercase tracking-widest mb-6">
+              <span className="w-8 h-px bg-gold/60" />
+              Contact Us
+              <span className="w-8 h-px bg-gold/60" />
+            </span>
+          </div>
+          <h1 className="text-4xl md:text-5xl font-bold mb-5 tracking-tight animate-fade-up-delay-1">
             Get a Free GBP Audit
             <br />
             <span className="gold-gradient-text">
               Mandurah, Rockingham &amp; Perth
             </span>
           </h1>
-          <p className="text-lg text-white/60 max-w-2xl mx-auto leading-relaxed">
+          <p className="text-lg text-white/60 max-w-2xl mx-auto leading-relaxed animate-fade-up-delay-2">
             Request a free audit of your Google Business Profile, or just ask us
             anything.
           </p>
