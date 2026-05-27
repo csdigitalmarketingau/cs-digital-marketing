@@ -1,0 +1,91 @@
+"use client";
+
+import Link from "next/link";
+import Image from "next/image";
+import { useState } from "react";
+
+const nav = [
+  { href: "/", label: "Home" },
+  { href: "/services", label: "Services" },
+  { href: "/about", label: "About" },
+  { href: "/results", label: "Results" },
+  { href: "/contact", label: "Contact" },
+];
+
+export function Header() {
+  const [open, setOpen] = useState(false);
+
+  return (
+    <header className="bg-navy text-white sticky top-0 z-50">
+      <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
+        <Link href="/" className="flex items-center">
+          <Image
+            src="/logo.png"
+            alt="CS Digital Marketing"
+            width={120}
+            height={40}
+            className="h-8 w-auto brightness-0 invert"
+            priority
+          />
+        </Link>
+
+        {/* Desktop nav */}
+        <nav className="hidden md:flex items-center gap-8">
+          {nav.map(({ href, label }) => (
+            <Link
+              key={href}
+              href={href}
+              className="text-sm text-white/80 hover:text-gold transition-colors"
+            >
+              {label}
+            </Link>
+          ))}
+          <Link
+            href="/contact"
+            className="bg-gold hover:bg-gold-light text-navy font-semibold text-sm px-5 py-2.5 rounded-lg transition-colors"
+          >
+            Free Audit
+          </Link>
+        </nav>
+
+        {/* Mobile menu button */}
+        <button
+          onClick={() => setOpen(!open)}
+          className="md:hidden text-white/80 hover:text-white"
+          aria-label="Toggle menu"
+        >
+          <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            {open ? (
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+            ) : (
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
+            )}
+          </svg>
+        </button>
+      </div>
+
+      {/* Mobile nav */}
+      {open && (
+        <nav className="md:hidden border-t border-white/10 px-6 py-4 space-y-3">
+          {nav.map(({ href, label }) => (
+            <Link
+              key={href}
+              href={href}
+              onClick={() => setOpen(false)}
+              className="block text-sm text-white/80 hover:text-gold transition-colors"
+            >
+              {label}
+            </Link>
+          ))}
+          <Link
+            href="/contact"
+            onClick={() => setOpen(false)}
+            className="block bg-gold hover:bg-gold-light text-navy font-semibold text-sm px-5 py-2.5 rounded-lg transition-colors text-center mt-3"
+          >
+            Free Audit
+          </Link>
+        </nav>
+      )}
+    </header>
+  );
+}
