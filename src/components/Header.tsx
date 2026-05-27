@@ -29,10 +29,10 @@ export function Header() {
             className="h-10 w-auto"
             priority
           />
-          <span className="text-sm font-semibold tracking-wide text-white/90 leading-tight hidden sm:block">
-            DIGITAL
+          <span className="text-[11px] font-light tracking-[0.25em] uppercase text-white/70 leading-tight hidden sm:block">
+            Digital
             <br />
-            MARKETING
+            Marketing
           </span>
         </Link>
 
