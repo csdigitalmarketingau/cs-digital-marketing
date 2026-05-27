@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
+import { AnimatedCounter } from "@/components/AnimatedCounter";
 
 export const metadata: Metadata = {
   title:
@@ -21,7 +23,17 @@ export default function Home() {
   return (
     <>
       {/* ======= HERO ======= */}
-      <section className="hero-gradient text-white py-24 md:py-32 relative">
+      <section className="relative text-white py-24 md:py-32 overflow-hidden">
+        {/* Background image + overlay */}
+        <Image
+          src="/mandurah-aerial.jpg"
+          alt=""
+          fill
+          className="object-cover"
+          priority
+        />
+        <div className="absolute inset-0 bg-gradient-to-br from-navy-dark/95 via-navy/90 to-navy-dark/95" />
+        <div className="absolute inset-0 hero-gradient opacity-60" />
         <div className="max-w-6xl mx-auto px-6 relative z-10">
           <div className="max-w-3xl">
             <div className="animate-fade-up">
@@ -67,9 +79,9 @@ export default function Home() {
           <div className="hidden lg:block absolute top-1/2 right-0 -translate-y-1/2 animate-fade-up-delay-4">
             <div className="glass-card p-6 space-y-6 animate-float">
               {[
-                { value: "12", label: "Week Programme", icon: "calendar" },
-                { value: "3", label: "Ranking Pillars", icon: "layers" },
-                { value: "42+", label: "Directories", icon: "globe" },
+                { end: 12, suffix: "", label: "Week Programme", icon: "calendar" },
+                { end: 3, suffix: "", label: "Ranking Pillars", icon: "layers" },
+                { end: 42, suffix: "+", label: "Directories", icon: "globe" },
               ].map((s) => (
                 <div key={s.label} className="flex items-center gap-4">
                   <div className="w-11 h-11 rounded-lg bg-gold/10 flex items-center justify-center text-gold">
@@ -78,7 +90,9 @@ export default function Home() {
                     {s.icon === "globe" && <GlobeIcon />}
                   </div>
                   <div>
-                    <div className="text-xl font-bold text-white">{s.value}</div>
+                    <div className="text-xl font-bold text-white">
+                      <AnimatedCounter end={s.end} suffix={s.suffix} duration={1500} />
+                    </div>
                     <div className="text-xs text-white/40">{s.label}</div>
                   </div>
                 </div>
@@ -93,12 +107,14 @@ export default function Home() {
         <div className="max-w-6xl mx-auto px-6 py-6">
           <div className="grid grid-cols-3 gap-4 text-center">
             {[
-              { value: "12", label: "Week Programme" },
-              { value: "3", label: "Ranking Pillars" },
-              { value: "42+", label: "Directories" },
+              { end: 12, suffix: "", label: "Week Programme" },
+              { end: 3, suffix: "", label: "Ranking Pillars" },
+              { end: 42, suffix: "+", label: "Directories" },
             ].map((stat) => (
               <div key={stat.label} className="stat-item">
-                <div className="text-2xl font-bold text-gold">{stat.value}</div>
+                <div className="text-2xl font-bold text-gold">
+                  <AnimatedCounter end={stat.end} suffix={stat.suffix} duration={1500} />
+                </div>
                 <div className="text-xs text-white/40 mt-0.5">{stat.label}</div>
               </div>
             ))}
