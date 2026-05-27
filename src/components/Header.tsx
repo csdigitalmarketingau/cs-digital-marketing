@@ -48,7 +48,7 @@ export function Header() {
           ))}
           <Link
             href="/contact"
-            className="bg-gold hover:bg-gold-light text-navy font-semibold text-sm px-5 py-2.5 rounded-lg transition-colors"
+            className="bg-gold hover:bg-gold-light text-navy font-semibold text-sm px-5 py-2.5 rounded-xl transition-colors shadow-sm shadow-gold/20"
           >
             Free Audit
           </Link>
@@ -91,7 +91,7 @@ export function Header() {
           <Link
             href="/contact"
             onClick={() => setOpen(false)}
-            className="block bg-gold hover:bg-gold-light text-navy font-semibold text-sm px-5 py-2.5 rounded-lg transition-colors text-center mt-3"
+            className="block bg-gold hover:bg-gold-light text-navy font-semibold text-sm px-5 py-2.5 rounded-xl transition-colors text-center mt-3 shadow-sm shadow-gold/20"
           >
             Free Audit
           </Link>

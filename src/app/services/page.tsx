@@ -15,42 +15,34 @@ const included = [
   {
     title: "Full Audit & Benchmark",
     desc: "We check how your business currently appears on Google, where you rank across your area, and what your top competitors are doing differently. This is your starting point.",
-    icon: "audit",
   },
   {
     title: "Google Profile Optimisation",
     desc: "We configure every part of your Google listing — your business category, services, description, photos, and Q&A — so Google shows your business to the right people.",
-    icon: "profile",
   },
   {
     title: "Directory Listings (42+ Sites)",
     desc: "We list your business across 42+ online directories (Google, Apple Maps, Bing, Yelp, Yellow Pages, and more) so your details are consistent everywhere customers look.",
-    icon: "citation",
   },
   {
     title: "Review Strategy",
     desc: "We set up a simple system to help you collect more Google reviews from happy customers. More reviews means more trust and higher rankings.",
-    icon: "review",
   },
   {
     title: "Website Tweaks",
     desc: "We make targeted changes to your website so it reinforces your Google listing — things like adding a map, making sure your business details are visible, and helping Google connect your site to your area.",
-    icon: "seo",
   },
   {
     title: "Weekly Progress Updates",
     desc: "Every week you get a clear email showing what we did and what's next. No mystery, no vague promises — you always know what's happening.",
-    icon: "update",
   },
   {
     title: "Monthly Ranking Reports",
     desc: "A visual before-and-after showing how your Google rankings have changed across your service area. You can see exactly where you've improved.",
-    icon: "report",
   },
   {
     title: "Competitor Monitoring",
     desc: "We keep an eye on what your competitors are doing on Google — and flag anything dodgy like fake listings or misleading business names.",
-    icon: "competitor",
   },
 ];
 
@@ -63,7 +55,7 @@ const faqs = [
   {
     question: "What is Google Business Profile optimisation?",
     answer:
-      "When someone searches for a service near them (like \"plumber Mandurah\"), Google shows a map with 3 local businesses. Your Google Business Profile is that listing. Optimisation means setting it up properly — your category, services, photos, reviews, description — so Google is more likely to show YOUR business in those top 3 spots.",
+      'When someone searches for a service near them (like "plumber Mandurah"), Google shows a map with 3 local businesses. Your Google Business Profile is that listing. Optimisation means setting it up properly — your category, services, photos, reviews, description — so Google is more likely to show YOUR business in those top 3 spots.',
   },
   {
     question: "Do you lock clients into long-term contracts?",
@@ -102,13 +94,22 @@ export default function Services() {
     <>
       <FAQJsonLd faqs={faqs} />
 
-      {/* Header */}
-      <section className="hero-gradient dot-pattern text-white py-16">
-        <div className="max-w-6xl mx-auto px-6 text-center">
-          <h1 className="text-4xl font-bold mb-4">
-            GBP Optimisation Services in Mandurah, Rockingham &amp; Perth
+      {/* Hero */}
+      <section className="hero-gradient text-white py-20 md:py-28 relative">
+        <div className="max-w-6xl mx-auto px-6 text-center relative z-10">
+          <span className="inline-flex items-center gap-2 text-gold/90 text-xs font-semibold uppercase tracking-widest mb-6">
+            <span className="w-8 h-px bg-gold/60" />
+            Our Services
+            <span className="w-8 h-px bg-gold/60" />
+          </span>
+          <h1 className="text-4xl md:text-5xl font-bold mb-5 tracking-tight">
+            GBP Optimisation Services in
+            <br />
+            <span className="gold-gradient-text">
+              Mandurah, Rockingham &amp; Perth
+            </span>
           </h1>
-          <p className="text-lg text-white/70 max-w-2xl mx-auto">
+          <p className="text-lg text-white/60 max-w-2xl mx-auto leading-relaxed">
             A structured 12-week programme to get your business ranking in the
             Google Map Pack for your target search terms.
           </p>
@@ -116,15 +117,20 @@ export default function Services() {
       </section>
 
       {/* How it works timeline */}
-      <section className="py-16 md:py-20">
+      <section className="py-20 md:py-28">
         <div className="max-w-4xl mx-auto px-6">
-          <h2 className="text-2xl font-bold text-navy text-center mb-4">
-            How the 12 Weeks Break Down
-          </h2>
-          <p className="text-gray-600 text-center max-w-2xl mx-auto mb-12">
-            Each phase builds on the last. By week 12, all three ranking pillars
-            are working together.
-          </p>
+          <div className="text-center mb-14">
+            <span className="text-gold text-xs font-semibold uppercase tracking-widest">
+              The Programme
+            </span>
+            <h2 className="text-3xl md:text-4xl font-bold text-navy mt-3 mb-4 tracking-tight section-divider">
+              How the 12 Weeks Break Down
+            </h2>
+            <p className="text-gray-500 mt-8 max-w-2xl mx-auto leading-relaxed">
+              Each phase builds on the last. By week 12, all three ranking
+              pillars are working together.
+            </p>
+          </div>
           <div className="space-y-8">
             {[
               {
@@ -172,7 +178,7 @@ export default function Services() {
                   <h3 className="text-lg font-semibold text-navy mb-1">
                     {phase.title}
                   </h3>
-                  <p className="text-gray-600 text-sm leading-relaxed">
+                  <p className="text-gray-500 text-sm leading-relaxed">
                     {phase.detail}
                   </p>
                 </div>
@@ -183,43 +189,47 @@ export default function Services() {
       </section>
 
       {/* What's included */}
-      <section className="py-16 bg-gray-50">
+      <section className="py-20 md:py-28 bg-[#f8f9fb]">
         <div className="max-w-6xl mx-auto px-6">
-          <h2 className="text-2xl font-bold text-navy text-center mb-4">
-            What&apos;s Included
-          </h2>
-          <p className="text-gray-600 text-center max-w-2xl mx-auto mb-10">
-            Everything you need to rank in the Google Map Pack — no extras, no
-            upsells, no hidden costs during the programme.
-          </p>
+          <div className="text-center mb-14">
+            <span className="text-gold text-xs font-semibold uppercase tracking-widest">
+              Everything Included
+            </span>
+            <h2 className="text-3xl md:text-4xl font-bold text-navy mt-3 mb-4 tracking-tight section-divider">
+              What&apos;s Included
+            </h2>
+            <p className="text-gray-500 mt-8 max-w-2xl mx-auto leading-relaxed">
+              Everything you need to rank in the Google Map Pack — no extras, no
+              upsells, no hidden costs during the programme.
+            </p>
+          </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
             {included.map((item) => (
-              <div
-                key={item.title}
-                className="flex gap-4 bg-white border border-gray-200 rounded-xl p-5 hover:shadow-md hover:border-gold/30 transition-all"
-              >
-                <div className="w-8 h-8 bg-gold/10 text-gold rounded-lg flex items-center justify-center shrink-0 mt-0.5">
-                  <svg
-                    className="w-4 h-4"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                    strokeWidth={2.5}
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      d="M5 13l4 4L19 7"
-                    />
-                  </svg>
-                </div>
-                <div>
-                  <h3 className="font-semibold text-navy text-sm mb-1">
-                    {item.title}
-                  </h3>
-                  <p className="text-gray-600 text-sm leading-relaxed">
-                    {item.desc}
-                  </p>
+              <div key={item.title} className="accent-card p-6">
+                <div className="flex gap-4">
+                  <div className="w-8 h-8 bg-gold/10 text-gold rounded-lg flex items-center justify-center shrink-0 mt-0.5">
+                    <svg
+                      className="w-4 h-4"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                      strokeWidth={2.5}
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M5 13l4 4L19 7"
+                      />
+                    </svg>
+                  </div>
+                  <div>
+                    <h3 className="font-semibold text-navy text-sm mb-1">
+                      {item.title}
+                    </h3>
+                    <p className="text-gray-500 text-sm leading-relaxed">
+                      {item.desc}
+                    </p>
+                  </div>
                 </div>
               </div>
             ))}
@@ -228,21 +238,26 @@ export default function Services() {
       </section>
 
       {/* FAQ */}
-      <section className="py-16 md:py-20">
+      <section className="py-20 md:py-28">
         <div className="max-w-3xl mx-auto px-6">
-          <h2 className="text-2xl font-bold text-navy text-center mb-4">
-            Frequently Asked Questions
-          </h2>
-          <p className="text-gray-600 text-center mb-10">
-            Common questions about our GBP optimisation services.
-          </p>
+          <div className="text-center mb-14">
+            <span className="text-gold text-xs font-semibold uppercase tracking-widest">
+              Got Questions?
+            </span>
+            <h2 className="text-3xl md:text-4xl font-bold text-navy mt-3 mb-4 tracking-tight section-divider">
+              Frequently Asked Questions
+            </h2>
+            <p className="text-gray-500 mt-8 leading-relaxed">
+              Common questions about our GBP optimisation services.
+            </p>
+          </div>
           <div className="space-y-4">
             {faqs.map((faq) => (
               <details
                 key={faq.question}
-                className="group bg-white border border-gray-200 rounded-xl overflow-hidden"
+                className="group bg-white border border-gray-200 rounded-xl overflow-hidden hover:border-gold/30 transition-colors"
               >
-                <summary className="flex items-center justify-between cursor-pointer px-6 py-4 text-navy font-medium hover:bg-gray-50 transition-colors">
+                <summary className="flex items-center justify-between cursor-pointer px-6 py-4 text-navy font-medium hover:bg-gray-50/50 transition-colors">
                   {faq.question}
                   <svg
                     className="w-5 h-5 text-gray-400 shrink-0 ml-4 group-open:rotate-180 transition-transform"
@@ -258,7 +273,7 @@ export default function Services() {
                     />
                   </svg>
                 </summary>
-                <div className="px-6 pb-4 text-sm text-gray-600 leading-relaxed">
+                <div className="px-6 pb-4 text-sm text-gray-500 leading-relaxed">
                   {faq.answer}
                 </div>
               </details>
@@ -268,20 +283,36 @@ export default function Services() {
       </section>
 
       {/* CTA */}
-      <section className="hero-gradient py-16">
-        <div className="max-w-3xl mx-auto px-6 text-center">
-          <h2 className="text-3xl font-bold text-white mb-4">
+      <section className="hero-gradient py-20 md:py-24 relative">
+        <div className="max-w-3xl mx-auto px-6 text-center relative z-10">
+          <span className="text-gold/70 text-xs font-semibold uppercase tracking-widest">
+            Ready?
+          </span>
+          <h2 className="text-3xl md:text-4xl font-bold text-white mt-3 mb-4 tracking-tight">
             Let&apos;s See Where You Stand
           </h2>
-          <p className="text-white/70 mb-8 text-lg">
+          <p className="text-white/50 mb-10 text-lg max-w-lg mx-auto">
             We&apos;ll run a free audit of your Google Business Profile and show
             you exactly what needs fixing — no obligation.
           </p>
           <Link
             href="/contact"
-            className="inline-block bg-gold hover:bg-gold-light text-navy font-semibold px-8 py-3.5 rounded-lg text-lg transition-colors shadow-lg shadow-gold/20"
+            className="btn-glow inline-flex items-center gap-2 bg-gold hover:bg-gold-light text-navy font-semibold px-8 py-4 rounded-xl text-base transition-colors"
           >
             Get Your Free Audit
+            <svg
+              className="w-4 h-4"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              strokeWidth={2.5}
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"
+              />
+            </svg>
           </Link>
         </div>
       </section>
