@@ -11,30 +11,44 @@ const geistSans = Geist({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://csdigitalmarketing.au"),
   title: {
-    default: "CS Digital Marketing | Google Business Profile Optimisation",
+    default:
+      "Google Business Profile Optimisation Mandurah, Rockingham & Perth | CS Digital Marketing",
     template: "%s | CS Digital Marketing",
   },
   description:
-    "We help local businesses in Mandurah and Perth get found on Google. Professional Google Business Profile optimisation to increase your visibility, reviews, and leads.",
+    "We help local businesses in Mandurah, Rockingham, and Perth get found on Google. Professional Google Business Profile optimisation to increase your visibility, reviews, and leads.",
   keywords: [
     "Google Business Profile optimisation",
-    "GBP optimisation",
-    "local SEO",
-    "Mandurah",
-    "Perth",
+    "GBP optimisation Mandurah",
+    "local SEO Mandurah",
+    "local SEO Perth",
     "Google Maps ranking",
-    "local business marketing",
+    "local business marketing Mandurah",
+    "GBP specialist Perth",
+    "citation building",
+    "Google Map Pack",
   ],
   authors: [{ name: "CS Digital Marketing" }],
   openGraph: {
-    title: "CS Digital Marketing | Google Business Profile Optimisation",
+    title:
+      "Google Business Profile Optimisation Mandurah, Rockingham & Perth | CS Digital Marketing",
     description:
       "We help local businesses get found on Google. Professional GBP optimisation for more visibility, reviews, and leads.",
     url: "https://csdigitalmarketing.au",
     siteName: "CS Digital Marketing",
     locale: "en_AU",
     type: "website",
+  },
+  twitter: {
+    card: "summary",
+    title: "CS Digital Marketing | GBP Optimisation Mandurah, Rockingham & Perth",
+    description:
+      "Professional Google Business Profile optimisation for local businesses in Mandurah, Rockingham, and Perth.",
+  },
+  alternates: {
+    canonical: "https://csdigitalmarketing.au",
   },
 };
 

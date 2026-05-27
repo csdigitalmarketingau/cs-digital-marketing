@@ -3,20 +3,22 @@
 import Link from "next/link";
 import Image from "next/image";
 import { useState } from "react";
+import { usePathname } from "next/navigation";
 
 const nav = [
   { href: "/", label: "Home" },
   { href: "/services", label: "Services" },
+  { href: "/process", label: "Our Process" },
   { href: "/about", label: "About" },
-  { href: "/results", label: "Results" },
   { href: "/contact", label: "Contact" },
 ];
 
 export function Header() {
   const [open, setOpen] = useState(false);
+  const pathname = usePathname();
 
   return (
-    <header className="bg-navy text-white sticky top-0 z-50">
+    <header className="bg-navy text-white sticky top-0 z-50 shadow-lg shadow-navy-dark/20">
       <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
         <Link href="/" className="flex items-center">
           <Image
@@ -35,7 +37,11 @@ export function Header() {
             <Link
               key={href}
               href={href}
-              className="text-sm text-white/80 hover:text-gold transition-colors"
+              className={`text-sm transition-colors ${
+                pathname === href
+                  ? "text-gold font-semibold"
+                  : "text-white/80 hover:text-gold"
+              }`}
             >
               {label}
             </Link>
@@ -53,6 +59,7 @@ export function Header() {
           onClick={() => setOpen(!open)}
           className="md:hidden text-white/80 hover:text-white"
           aria-label="Toggle menu"
+          aria-expanded={open}
         >
           <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             {open ? (
@@ -72,7 +79,11 @@ export function Header() {
               key={href}
               href={href}
               onClick={() => setOpen(false)}
-              className="block text-sm text-white/80 hover:text-gold transition-colors"
+              className={`block text-sm transition-colors ${
+                pathname === href
+                  ? "text-gold font-semibold"
+                  : "text-white/80 hover:text-gold"
+              }`}
             >
               {label}
             </Link>
