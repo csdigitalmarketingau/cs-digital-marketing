@@ -37,13 +37,13 @@ export default function About() {
         <div className="max-w-4xl mx-auto px-6">
           <div className="md:flex md:gap-12 md:items-start">
             {/* Headshot */}
-            <div className="mb-8 md:mb-0 md:w-64 shrink-0">
+            <div className="mb-8 md:mb-0 md:w-80 shrink-0">
               <div className="relative">
                 <Image
                   src="/coen-stewart.jpg"
                   alt="Coen Stewart — Founder of CS Digital Marketing"
-                  width={256}
-                  height={320}
+                  width={400}
+                  height={500}
                   className="rounded-2xl object-cover w-full shadow-lg"
                 />
                 <div className="absolute -bottom-3 -right-3 bg-gold text-navy text-xs font-bold uppercase tracking-wider px-3 py-1.5 rounded-full shadow-md">
