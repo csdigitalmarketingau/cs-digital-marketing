@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Logo } from "./Logo";
+import Image from "next/image";
 
 export function Footer() {
   const year = new Date().getFullYear();
@@ -10,9 +10,13 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Brand */}
           <div>
-            <div className="text-white/70">
-              <Logo />
-            </div>
+            <Image
+              src="/logo.png"
+              alt="CS Digital Marketing"
+              width={100}
+              height={34}
+              className="h-10 w-auto opacity-70"
+            />
             <p className="text-sm mt-3 leading-relaxed">
               Helping local businesses in Mandurah and surrounding areas get
               found on Google.

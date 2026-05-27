@@ -1,9 +1,9 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { useState } from "react";
 import { usePathname } from "next/navigation";
-import { Logo } from "./Logo";
 
 const nav = [
   { href: "/", label: "Home" },
@@ -20,8 +20,15 @@ export function Header() {
   return (
     <header className="bg-navy text-white sticky top-0 z-50 shadow-lg shadow-navy-dark/20">
       <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
-        <Link href="/" className="flex items-center text-white">
-          <Logo />
+        <Link href="/" className="flex items-center">
+          <Image
+            src="/logo.png"
+            alt="CS Digital Marketing"
+            width={120}
+            height={40}
+            className="h-12 w-auto"
+            priority
+          />
         </Link>
 
         {/* Desktop nav */}
