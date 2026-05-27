@@ -26,7 +26,7 @@ export function Header() {
             alt="CS Digital Marketing"
             width={120}
             height={40}
-            className="h-12 w-auto"
+            className="h-16 w-auto"
             priority
           />
         </Link>
