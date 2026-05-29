@@ -22,8 +22,8 @@ const included = [
     desc: "We configure every part of your Google listing — your business category, services, description, photos, and Q&A — so Google shows your business to the right people.",
   },
   {
-    title: "Directory Listings (42+ Sites)",
-    desc: "We list your business across 42+ online directories (Google, Apple Maps, Bing, Yelp, Yellow Pages, and more) so your details are consistent everywhere customers look.",
+    title: "Directory Listings (15+ Sites)",
+    desc: "We list your business across 15+ Australian directories (Google, Apple Maps, Bing, Yelp, Yellow Pages, and more) so your details are consistent everywhere customers look.",
   },
   {
     title: "Review Strategy",
@@ -161,7 +161,7 @@ export default function Services() {
                 weeks: "Weeks 7-10",
                 title: "Directory Listings",
                 detail:
-                  "We list your business on 42+ online directories (Apple Maps, Bing, Yelp, Yellow Pages, and more). Having your details consistent across the internet is a key ranking factor.",
+                  "We list your business on 15+ Australian directories (Apple Maps, Bing, Yelp, Yellow Pages, and more). Having your details consistent across the internet is a key ranking factor.",
               },
               {
                 weeks: "Weeks 11-12",

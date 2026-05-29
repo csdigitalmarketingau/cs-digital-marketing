@@ -232,12 +232,12 @@ export default function Process() {
               <div className="ml-16 grid grid-cols-1 md:grid-cols-2 gap-3">
                 {[
                   "Core platforms: Google, Apple Maps, Bing Places",
-                  "Major directories: Yelp, Foursquare, Facebook",
-                  "Australian directories: Yellow Pages, True Local, Hotfrog",
-                  "Industry-specific directories",
+                  "Major directories: Yelp, Facebook, White Pages",
+                  "Australian directories: Yellow Pages, Hotfrog, AussieWeb",
+                  "Industry-specific directories where applicable",
                   "NAP consistency audit across all listings",
                   "Duplicate and conflicting listing cleanup",
-                  "42+ citation sources verified",
+                  "15+ Australian citation sources verified",
                   "Monthly monitoring for accuracy",
                 ].map((item) => (
                   <div key={item} className="flex items-start gap-2.5 text-sm text-gray-600">

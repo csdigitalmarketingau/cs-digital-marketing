@@ -93,7 +93,7 @@ export default function PerthArea() {
                 12-week programme
               </Link>{" "}
               covers all three ranking pillars — GBP optimisation, on-page SEO,
-              and citation building across 42+ directories — with weekly updates
+              and citation building across 15+ Australian directories — with weekly updates
               and monthly heatmap reports tracking your progress across your
               service area.
             </p>

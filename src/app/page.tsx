@@ -81,7 +81,7 @@ export default function Home() {
               {[
                 { end: 12, suffix: "", label: "Week Programme", icon: "calendar" },
                 { end: 3, suffix: "", label: "Ranking Pillars", icon: "layers" },
-                { end: 42, suffix: "+", label: "Directories", icon: "globe" },
+                { end: 15, suffix: "+", label: "Directories", icon: "globe" },
               ].map((s) => (
                 <div key={s.label} className="flex items-center gap-4">
                   <div className="w-11 h-11 rounded-lg bg-gold/10 flex items-center justify-center text-gold">
@@ -109,7 +109,7 @@ export default function Home() {
             {[
               { end: 12, suffix: "", label: "Week Programme" },
               { end: 3, suffix: "", label: "Ranking Pillars" },
-              { end: 42, suffix: "+", label: "Directories" },
+              { end: 15, suffix: "+", label: "Directories" },
             ].map((stat) => (
               <div key={stat.label} className="stat-item">
                 <div className="text-2xl font-bold text-gold">
@@ -217,7 +217,7 @@ export default function Home() {
               number="03"
               title="Directory Listings"
               subtitle="Weeks 7–10"
-              description="Consistent business information across 42+ directories builds the trust signals Google relies on for local ranking."
+              description="Consistent business information across 15+ Australian directories builds the trust signals Google relies on for local ranking."
               items={[
                 "Google, Apple, Bing, Yelp",
                 "Australian directories",
