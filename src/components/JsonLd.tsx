@@ -57,6 +57,39 @@ export function LocalBusinessJsonLd() {
   );
 }
 
+export function ServiceJsonLd({
+  name,
+  description,
+  url,
+}: {
+  name: string;
+  description: string;
+  url: string;
+}) {
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    name,
+    description,
+    url,
+    provider: {
+      "@id": "https://csdigitalmarketing.au/#business",
+    },
+    areaServed: [
+      { "@type": "City", name: "Mandurah" },
+      { "@type": "City", name: "Rockingham" },
+      { "@type": "City", name: "Perth" },
+    ],
+  };
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+    />
+  );
+}
+
 export function FAQJsonLd({ faqs }: { faqs: { question: string; answer: string }[] }) {
   const schema = {
     "@context": "https://schema.org",

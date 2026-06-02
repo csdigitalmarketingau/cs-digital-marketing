@@ -122,6 +122,78 @@ export default function Services() {
         </div>
       </section>
 
+      {/* Service Pages */}
+      <section className="py-20 md:py-28 bg-[#f8f9fb]">
+        <div className="max-w-6xl mx-auto px-6">
+          <div className="text-center mb-14">
+            <span className="text-gold text-xs font-semibold uppercase tracking-widest">
+              What We Do
+            </span>
+            <h2 className="text-3xl md:text-4xl font-bold text-navy mt-3 mb-4 tracking-tight section-divider">
+              Our Core Services
+            </h2>
+            <p className="text-gray-500 mt-8 max-w-2xl mx-auto leading-relaxed">
+              Each service targets a specific ranking factor. Together, they
+              form a complete local SEO system.
+            </p>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+            {[
+              {
+                title: "GBP Optimisation",
+                desc: "Complete Google Business Profile setup and configuration — categories, services, photos, posts, and attributes.",
+                href: "/services/gbp-optimisation",
+              },
+              {
+                title: "Local SEO",
+                desc: "Our full three-pillar system to rank your business in the Google Map Pack for your target searches.",
+                href: "/services/local-seo",
+              },
+              {
+                title: "Citation Building",
+                desc: "Consistent business listings across 15+ authoritative Australian directories that influence local rankings.",
+                href: "/services/citation-building",
+              },
+              {
+                title: "On-Page SEO",
+                desc: "Title tags, schema markup, heading structure, and geo-targeted content to reinforce your local relevance.",
+                href: "/services/on-page-seo",
+              },
+              {
+                title: "Review Management",
+                desc: "A compliant system to generate consistent Google reviews and respond strategically to build trust.",
+                href: "/services/review-management",
+              },
+            ].map((service) => (
+              <Link key={service.title} href={service.href} className="accent-card p-6 block group">
+                <h3 className="font-semibold text-navy mb-2 group-hover:text-gold transition-colors">
+                  {service.title}
+                </h3>
+                <p className="text-sm text-gray-500 leading-relaxed mb-3">
+                  {service.desc}
+                </p>
+                <span className="text-gold text-sm font-medium inline-flex items-center gap-1">
+                  Learn more
+                  <svg
+                    className="w-3 h-3 group-hover:translate-x-1 transition-transform"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                    strokeWidth={2.5}
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"
+                    />
+                  </svg>
+                </span>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* How it works timeline */}
       <section className="py-20 md:py-28">
         <div className="max-w-4xl mx-auto px-6">
