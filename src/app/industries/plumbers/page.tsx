@@ -13,13 +13,13 @@ export const metadata: Metadata = {
 
 const commonSearches = [
   "Plumber near me",
-  "Emergency plumber [suburb]",
-  "Blocked drains [suburb]",
+  "Emergency plumber Mandurah",
+  "Blocked drains Rockingham",
   "Hot water system repair",
-  "Gas plumber [suburb]",
-  "Plumber Mandurah",
+  "Gas plumber Baldivis",
+  "Plumber Halls Head",
   "Plumber Rockingham",
-  "Plumber Baldivis",
+  "Plumber Falcon",
 ];
 
 const gbpMistakes = [
@@ -230,7 +230,7 @@ export default function PlumbersPage() {
               >
                 on-page SEO
               </Link>{" "}
-              on your website. Title tags targeting "plumber [suburb]" for
+              on your website. Title tags targeting "plumber Mandurah," "plumber Baldivis," and so on for
               every area you service. Schema markup. A map embed. Consistent
               business details across every page.
             </p>

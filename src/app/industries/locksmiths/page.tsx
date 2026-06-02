@@ -13,11 +13,11 @@ export const metadata: Metadata = {
 
 const commonSearches = [
   "Locksmith near me",
-  "Emergency locksmith [suburb]",
-  "Car locksmith [suburb]",
-  "Lock change [suburb]",
+  "Emergency locksmith Mandurah",
+  "Car locksmith Rockingham",
+  "Lock change Baldivis",
   "Locked out of house",
-  "Locksmith Mandurah",
+  "Locksmith Halls Head",
   "Locksmith Rockingham",
   "24 hour locksmith Perth",
 ];

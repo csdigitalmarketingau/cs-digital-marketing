@@ -13,11 +13,11 @@ export const metadata: Metadata = {
 
 const commonSearches = [
   "Cleaner near me",
-  "House cleaning [suburb]",
+  "House cleaning Mandurah",
   "End of lease cleaning",
-  "Office cleaning [suburb]",
-  "Carpet cleaning [suburb]",
-  "Window cleaning [suburb]",
+  "Office cleaning Rockingham",
+  "Carpet cleaning Baldivis",
+  "Window cleaning Halls Head",
   "Bond cleaning Perth",
   "Deep cleaning Mandurah",
 ];

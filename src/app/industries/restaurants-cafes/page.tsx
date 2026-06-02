@@ -13,11 +13,11 @@ export const metadata: Metadata = {
 
 const commonSearches = [
   "Restaurants near me",
-  "Cafe [suburb]",
-  "Best coffee [suburb]",
+  "Cafe Mandurah",
+  "Best coffee Rockingham",
   "Brunch Mandurah",
   "Italian restaurant Perth",
-  "Fish and chips [suburb]",
+  "Fish and chips Halls Head",
   "Breakfast Rockingham",
   "Lunch near me",
 ];
@@ -76,7 +76,7 @@ export default function RestaurantsCafesPage() {
           <span className="text-gold text-xs font-semibold uppercase tracking-widest">Why It Matters</span>
           <h2 className="text-3xl font-bold text-navy mt-3 mb-6 tracking-tight">Why Google Rankings Matter for Restaurants &amp; Cafes</h2>
           <div className="space-y-4 text-gray-500 leading-relaxed">
-            <p>Food and drink searches are the highest-volume local searches on Google. "Restaurants near me," "cafe [suburb]," "best coffee [area]." These happen thousands of times a day in Perth alone. The restaurants in the map pack capture the majority of walk-in and takeaway traffic from people who did not already have a place in mind.</p>
+            <p>Food and drink searches are the highest-volume local searches on Google. "Restaurants near me," "cafe Mandurah," "best coffee Rockingham." These happen thousands of times a day in Perth alone. The restaurants in the map pack capture the majority of walk-in and takeaway traffic from people who did not already have a place in mind.</p>
             <p>Reviews matter more for restaurants than almost any other industry. People read them. They look at the food photos. They check the menu. They compare the rating to the place next door. This all happens on your Google profile in about 15 seconds.</p>
             <p>Along the <Link href="/areas/mandurah" className="text-gold hover:underline font-medium">Mandurah</Link> foreshore, through <Link href="/areas/rockingham" className="text-gold hover:underline font-medium">Rockingham</Link>, and across <Link href="/areas/perth" className="text-gold hover:underline font-medium">Perth</Link>, new restaurants open regularly. The ones that rank well on Google from day one fill seats faster.</p>
           </div>

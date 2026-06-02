@@ -13,10 +13,10 @@ export const metadata: Metadata = {
 
 const commonSearches = [
   "Hair salon near me",
-  "Beauty salon [suburb]",
-  "Massage [suburb]",
+  "Beauty salon Mandurah",
+  "Massage Rockingham",
   "Physio near me",
-  "Nail salon [suburb]",
+  "Nail salon Baldivis",
   "Barber Mandurah",
   "Day spa Rockingham",
   "Dentist near me",

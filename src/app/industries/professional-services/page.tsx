@@ -13,12 +13,12 @@ export const metadata: Metadata = {
 
 const commonSearches = [
   "Accountant near me",
-  "Lawyer [suburb]",
-  "Financial adviser [suburb]",
+  "Lawyer Mandurah",
+  "Financial adviser Rockingham",
   "Mortgage broker near me",
   "Tax agent Mandurah",
   "Bookkeeper Rockingham",
-  "Real estate agent [suburb]",
+  "Real estate agent Baldivis",
   "Insurance broker Perth",
 ];
 
@@ -33,7 +33,7 @@ const gbpMistakes = [
   },
   {
     title: "Missing Credentials",
-    desc: "Professional service clients care about qualifications. CPA, CA, MFAA, registered tax agent. Your Google description should mention these. Not as a brag, but because people search for \"registered tax agent near me\" or \"CPA accountant [suburb]\" and Google matches those terms against your profile content.",
+    desc: "Professional service clients care about qualifications. CPA, CA, MFAA, registered tax agent. Your Google description should mention these. Not as a brag, but because people search for "registered tax agent near me" or "CPA accountant Mandurah" and Google matches those terms against your profile content.",
   },
   {
     title: "Formal but Empty Profile",

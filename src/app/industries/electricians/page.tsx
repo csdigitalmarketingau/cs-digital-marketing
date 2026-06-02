@@ -13,13 +13,13 @@ export const metadata: Metadata = {
 
 const commonSearches = [
   "Electrician near me",
-  "Emergency electrician [suburb]",
-  "Electrical repairs [suburb]",
+  "Emergency electrician Mandurah",
+  "Electrical repairs Baldivis",
   "Switchboard upgrade",
   "Ceiling fan installation",
-  "Electrician Mandurah",
+  "Electrician Halls Head",
   "Electrician Rockingham",
-  "Electrician Baldivis",
+  "Electrician Safety Bay",
 ];
 
 const gbpMistakes = [
@@ -200,7 +200,7 @@ export default function ElectriciansPage() {
               <Link href="/services/on-page-seo" className="text-gold hover:underline font-medium">
                 on-page SEO
               </Link>{" "}
-              (title tags targeting "electrician [suburb]" for every area you
+              (title tags targeting "electrician Mandurah," "electrician Baldivis," etc. for every area you
               cover), and{" "}
               <Link href="/services/citation-building" className="text-gold hover:underline font-medium">
                 citation building

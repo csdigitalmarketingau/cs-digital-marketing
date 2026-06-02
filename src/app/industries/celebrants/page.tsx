@@ -13,13 +13,13 @@ export const metadata: Metadata = {
 
 const commonSearches = [
   "Marriage celebrant near me",
-  "Wedding celebrant [suburb]",
+  "Wedding celebrant Mandurah",
   "Celebrant Mandurah",
   "Celebrant Rockingham",
-  "Funeral celebrant [suburb]",
+  "Funeral celebrant Perth",
   "Elopement celebrant Perth",
   "Beach wedding celebrant",
-  "Celebrant Perth",
+  "Celebrant Falcon",
 ];
 
 const gbpMistakes = [
@@ -76,7 +76,7 @@ export default function CelebrantsPage() {
           <span className="text-gold text-xs font-semibold uppercase tracking-widest">Why It Matters</span>
           <h2 className="text-3xl font-bold text-navy mt-3 mb-6 tracking-tight">Why Google Rankings Matter for Celebrants</h2>
           <div className="space-y-4 text-gray-500 leading-relaxed">
-            <p>Choosing a celebrant is personal. Couples research, compare, and read reviews before reaching out. The first place most of them look is Google. They search "marriage celebrant [area]" and compare the top results on the map.</p>
+            <p>Choosing a celebrant is personal. Couples research, compare, and read reviews before reaching out. The first place most of them look is Google. They search "marriage celebrant Mandurah" or "wedding celebrant Perth" and compare the top results on the map.</p>
             <p>Your star rating, your review count, your ceremony photos, and your description all factor into their decision. A celebrant with 40 reviews and a gallery of real ceremony photos will get the enquiry over one with 3 reviews and a stock image.</p>
             <p>The <Link href="/areas/mandurah" className="text-gold hover:underline font-medium">Mandurah</Link> and <Link href="/areas/rockingham" className="text-gold hover:underline font-medium">Rockingham</Link> coastline is one of the most popular wedding destinations in Western Australia. Beach ceremonies at Halls Head, garden venues in Falcon, winery weddings in Pinjarra. Couples searching for celebrants in these areas need to find you, not your competitor three suburbs away.</p>
           </div>

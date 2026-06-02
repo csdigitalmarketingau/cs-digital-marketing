@@ -13,11 +13,11 @@ export const metadata: Metadata = {
 
 const commonSearches = [
   "Builder near me",
-  "Home builder [suburb]",
-  "Renovation builder [suburb]",
+  "Home builder Mandurah",
+  "Renovation builder Rockingham",
   "Granny flat builder",
   "Extension builder Perth",
-  "Builder Mandurah",
+  "Builder Baldivis",
   "Builder Rockingham",
   "Custom home builder",
 ];
@@ -88,8 +88,8 @@ export default function BuildersPage() {
             <p>
               Meanwhile, the builders ranking in the map pack are getting a
               steady stream of enquiries from homeowners searching "builder
-              near me," "renovation builder [suburb]," and "home extension
-              [area]." These searches represent customers who have already
+              near me," "renovation builder Rockingham," and "home extension
+              Mandurah." These searches represent customers who have already
               decided to build. They are comparing builders right now.
             </p>
             <p>

@@ -13,13 +13,13 @@ export const metadata: Metadata = {
 
 const commonSearches = [
   "Landscaper near me",
-  "Landscaping [suburb]",
-  "Garden design [suburb]",
+  "Landscaping Mandurah",
+  "Garden design Rockingham",
   "Reticulation installation",
-  "Turf laying [suburb]",
-  "Landscaper Mandurah",
+  "Turf laying Baldivis",
+  "Landscaper Halls Head",
   "Landscaper Rockingham",
-  "Paving [suburb]",
+  "Paving Mandurah",
 ];
 
 const gbpMistakes = [
@@ -176,7 +176,7 @@ export default function LandscapersPage() {
               and{" "}
               <Link href="/services/citation-building" className="text-gold hover:underline font-medium">citation building</Link>{" "}
               phases round out the programme. Title tags targeting
-              "landscaper [suburb]" for every area you cover, consistent
+              "landscaper Mandurah," "landscaper Baldivis," etc. for every area you cover, consistent
               directory listings, and schema markup connecting your website
               to your Google profile.
             </p>
