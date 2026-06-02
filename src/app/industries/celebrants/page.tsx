@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { Breadcrumb } from "@/components/Breadcrumb";
+import { ServiceJsonLd } from "@/components/JsonLd";
 
 export const metadata: Metadata = {
   title: "GBP Optimisation for Celebrants | Mandurah, Rockingham & Perth",
@@ -50,6 +51,11 @@ export default function CelebrantsPage() {
         { label: "Industries", href: "/industries" },
         { label: "Celebrants" },
       ]} />
+      <ServiceJsonLd
+        name="GBP Optimisation for Celebrants"
+        description="Google Business Profile optimisation for marriage and funeral celebrants in Mandurah, Rockingham, and Perth."
+        url="https://csdigitalmarketing.au/industries/celebrants"
+      />
       {/* Hero */}
       <section className="relative text-white py-20 md:py-28 overflow-hidden">
         <Image src="/mandurah-aerial.jpg" alt="Aerial view of Mandurah waterways, Western Australia" fill className="object-cover" priority />

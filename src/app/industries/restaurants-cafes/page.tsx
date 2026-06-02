@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { Breadcrumb } from "@/components/Breadcrumb";
+import { ServiceJsonLd } from "@/components/JsonLd";
 
 export const metadata: Metadata = {
   title: "GBP Optimisation for Restaurants & Cafes | Mandurah, Rockingham & Perth",
@@ -50,6 +51,11 @@ export default function RestaurantsCafesPage() {
         { label: "Industries", href: "/industries" },
         { label: "Restaurants & Cafes" },
       ]} />
+      <ServiceJsonLd
+        name="GBP Optimisation for Restaurants & Cafes"
+        description="Google Business Profile optimisation for restaurants and cafes in Mandurah, Rockingham, and Perth."
+        url="https://csdigitalmarketing.au/industries/restaurants-cafes"
+      />
       {/* Hero */}
       <section className="relative text-white py-20 md:py-28 overflow-hidden">
         <Image src="/mandurah-aerial.jpg" alt="Aerial view of Mandurah, Western Australia" fill className="object-cover" priority />

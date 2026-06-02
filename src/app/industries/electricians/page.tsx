@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { Breadcrumb } from "@/components/Breadcrumb";
+import { ServiceJsonLd } from "@/components/JsonLd";
 
 export const metadata: Metadata = {
   title: "GBP Optimisation for Electricians | Mandurah, Rockingham & Perth",
@@ -50,6 +51,11 @@ export default function ElectriciansPage() {
         { label: "Industries", href: "/industries" },
         { label: "Electricians" },
       ]} />
+      <ServiceJsonLd
+        name="GBP Optimisation for Electricians"
+        description="Google Business Profile optimisation for electricians in Mandurah, Rockingham, and Perth. Rank in the Google Map Pack for electrical service searches."
+        url="https://csdigitalmarketing.au/industries/electricians"
+      />
       {/* Hero */}
       <section className="relative text-white py-20 md:py-28 overflow-hidden">
         <Image

@@ -27,7 +27,7 @@ export default function Home() {
         {/* Background image + overlay */}
         <Image
           src="/mandurah-aerial.jpg"
-          alt=""
+          alt="Aerial view of Mandurah waterways, Western Australia"
           fill
           className="object-cover"
           priority
