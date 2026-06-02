@@ -25,6 +25,18 @@ const nav: NavItem[] = [
       { href: "/services/review-management", label: "Review Management" },
     ],
   },
+  {
+    href: "/industries",
+    label: "Industries",
+    children: [
+      { href: "/industries", label: "All Industries" },
+      { href: "/industries/plumbers", label: "Plumbers" },
+      { href: "/industries/electricians", label: "Electricians" },
+      { href: "/industries/cleaners", label: "Cleaners" },
+      { href: "/industries/landscapers", label: "Landscapers" },
+      { href: "/industries/builders", label: "Builders" },
+    ],
+  },
   { href: "/process", label: "Our Process" },
   {
     href: "/areas/mandurah",
