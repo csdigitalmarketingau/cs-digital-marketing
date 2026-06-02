@@ -71,37 +71,32 @@ export function Footer() {
   return (
     <footer className="bg-navy-dark text-white/60">
       <div className="max-w-6xl mx-auto px-6 py-12">
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8">
-          {/* Brand */}
-          <div className="col-span-2 lg:col-span-1">
-            <Image
-              src="/logo.png"
-              alt="CS Digital Marketing"
-              width={100}
-              height={34}
-              className="h-16 w-auto opacity-70"
-            />
-            <p className="text-sm mt-3 leading-relaxed">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8">
+          {/* Brand + contact */}
+          <div className="col-span-2 md:col-span-3 lg:col-span-1">
+            <div className="flex items-center gap-3">
+              <Image
+                src="/logo.png"
+                alt="CS Digital Marketing"
+                width={100}
+                height={34}
+                className="h-12 w-auto opacity-80"
+              />
+              <span className="text-[11px] font-light tracking-[0.25em] uppercase text-white/60 leading-tight">
+                Digital
+                <br />
+                Marketing
+              </span>
+            </div>
+            <p className="text-sm mt-4 leading-relaxed">
               Helping local businesses in Mandurah and surrounding areas get
               found on Google.
             </p>
-          </div>
-
-          <FooterColumn title="Services" links={serviceLinks} />
-          <FooterColumn title="Industries" links={industryLinks} />
-          <FooterColumn title="Service Areas" links={areaLinks} />
-          <FooterColumn title="Company" links={companyLinks} />
-
-          {/* Contact info */}
-          <div>
-            <h3 className="text-white text-sm font-semibold uppercase tracking-wider mb-3">
-              Contact
-            </h3>
-            <ul className="space-y-2 text-sm">
+            <ul className="space-y-2 text-sm mt-5">
               <li>
                 <a
                   href="mailto:coen@csdigitalmarketing.au"
-                  className="hover:text-gold transition-colors break-words"
+                  className="hover:text-gold transition-colors"
                 >
                   coen@csdigitalmarketing.au
                 </a>
@@ -117,6 +112,11 @@ export function Footer() {
               <li>Mandurah, Western Australia</li>
             </ul>
           </div>
+
+          <FooterColumn title="Services" links={serviceLinks} />
+          <FooterColumn title="Industries" links={industryLinks} />
+          <FooterColumn title="Service Areas" links={areaLinks} />
+          <FooterColumn title="Company" links={companyLinks} />
         </div>
 
         <div className="border-t border-white/10 mt-10 pt-6 text-xs text-center">
