@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { ServiceJsonLd } from "@/components/JsonLd";
+import { Breadcrumb } from "@/components/Breadcrumb";
 
 export const metadata: Metadata = {
   title:
@@ -50,6 +51,11 @@ const strategies = [
 export default function ReviewManagement() {
   return (
     <>
+      <Breadcrumb items={[
+        { label: "Home", href: "/" },
+        { label: "Services", href: "/services" },
+        { label: "Review Management" },
+      ]} />
       <ServiceJsonLd
         name="Google Review Management"
         description="Google review management for local businesses in Mandurah, Rockingham, and Perth. Build reviews, respond strategically, and convert more searchers into customers."

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { ServiceJsonLd } from "@/components/JsonLd";
+import { Breadcrumb } from "@/components/Breadcrumb";
 
 export const metadata: Metadata = {
   title:
@@ -68,6 +69,11 @@ const differences = [
 export default function LocalSEO() {
   return (
     <>
+      <Breadcrumb items={[
+        { label: "Home", href: "/" },
+        { label: "Services", href: "/services" },
+        { label: "Local SEO" },
+      ]} />
       <ServiceJsonLd
         name="Local SEO Services"
         description="Local SEO services for businesses in Mandurah, Rockingham, and Perth. Three-pillar system to rank in the Google Map Pack."

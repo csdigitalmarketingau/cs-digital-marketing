@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { ServiceJsonLd } from "@/components/JsonLd";
+import { Breadcrumb } from "@/components/Breadcrumb";
 
 export const metadata: Metadata = {
   title:
@@ -66,6 +67,11 @@ const rankingFactors = [
 export default function GBPOptimisation() {
   return (
     <>
+      <Breadcrumb items={[
+        { label: "Home", href: "/" },
+        { label: "Services", href: "/services" },
+        { label: "GBP Optimisation" },
+      ]} />
       <ServiceJsonLd
         name="Google Business Profile Optimisation"
         description="Complete Google Business Profile setup and optimisation for local businesses in Mandurah, Rockingham, and Perth. We configure every element of your GBP to rank in the Google Map Pack."

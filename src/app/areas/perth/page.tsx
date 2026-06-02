@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { FAQJsonLd } from "@/components/JsonLd";
+import { Breadcrumb } from "@/components/Breadcrumb";
 
 export const metadata: Metadata = {
   title: "Google Business Profile Optimisation Perth | Local SEO Perth",
@@ -58,6 +59,11 @@ const faqs = [
 export default function PerthArea() {
   return (
     <>
+      <Breadcrumb items={[
+        { label: "Home", href: "/" },
+        { label: "Areas", href: "/areas/mandurah" },
+        { label: "Perth" },
+      ]} />
       <FAQJsonLd faqs={faqs} />
 
       {/* Hero */}

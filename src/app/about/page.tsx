@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
+import { Breadcrumb } from "@/components/Breadcrumb";
 
 export const metadata: Metadata = {
   title: "About CS Digital Marketing | GBP Specialists Mandurah",
@@ -14,9 +15,13 @@ export const metadata: Metadata = {
 export default function About() {
   return (
     <>
+      <Breadcrumb items={[
+        { label: "Home", href: "/" },
+        { label: "About" },
+      ]} />
       {/* Hero */}
       <section className="relative text-white py-20 md:py-28 overflow-hidden">
-        <Image src="/mandurah-aerial.jpg" alt="" fill className="object-cover" />
+        <Image src="/mandurah-aerial.jpg" alt="Aerial view of Mandurah, Western Australia" fill className="object-cover" />
         <div className="absolute inset-0 bg-gradient-to-br from-navy-dark/90 via-navy/80 to-navy-dark/85" />
         <div className="absolute inset-0 hero-gradient opacity-40" />
         <div className="max-w-6xl mx-auto px-6 text-center relative z-10">

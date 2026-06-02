@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { ServiceJsonLd } from "@/components/JsonLd";
+import { Breadcrumb } from "@/components/Breadcrumb";
 
 export const metadata: Metadata = {
   title:
@@ -35,6 +36,11 @@ const directories = [
 export default function CitationBuilding() {
   return (
     <>
+      <Breadcrumb items={[
+        { label: "Home", href: "/" },
+        { label: "Services", href: "/services" },
+        { label: "Citation Building" },
+      ]} />
       <ServiceJsonLd
         name="Citation Building"
         description="Professional citation building across 15+ Australian business directories for local businesses in Mandurah, Rockingham, and Perth."

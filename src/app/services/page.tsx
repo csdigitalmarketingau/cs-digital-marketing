@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
-import { FAQJsonLd } from "@/components/JsonLd";
+import { FAQJsonLd, ServiceJsonLd } from "@/components/JsonLd";
+import { Breadcrumb } from "@/components/Breadcrumb";
 
 export const metadata: Metadata = {
   title: "GBP Optimisation Services Mandurah, Rockingham & Perth",
@@ -94,6 +95,15 @@ export default function Services() {
   return (
     <>
       <FAQJsonLd faqs={faqs} />
+      <ServiceJsonLd
+        name="Google Business Profile Optimisation — 12-Week Programme"
+        description="A structured 12-week programme covering GBP optimisation, on-page SEO, and citation building to rank local businesses in the Google Map Pack across Mandurah, Rockingham, and Perth."
+        url="https://csdigitalmarketing.au/services"
+      />
+      <Breadcrumb items={[
+        { label: "Home", href: "/" },
+        { label: "Services" },
+      ]} />
 
       {/* Hero */}
       <section className="relative text-white py-20 md:py-28 overflow-hidden">

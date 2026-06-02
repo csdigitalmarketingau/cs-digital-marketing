@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { ServiceJsonLd } from "@/components/JsonLd";
+import { Breadcrumb } from "@/components/Breadcrumb";
 
 export const metadata: Metadata = {
   title:
@@ -51,6 +52,11 @@ const elements = [
 export default function OnPageSEO() {
   return (
     <>
+      <Breadcrumb items={[
+        { label: "Home", href: "/" },
+        { label: "Services", href: "/services" },
+        { label: "On-Page SEO" },
+      ]} />
       <ServiceJsonLd
         name="On-Page SEO for Local Businesses"
         description="On-page SEO optimisation including title tags, schema markup, heading structure, and geo-targeted content for local businesses in Mandurah, Rockingham, and Perth."
