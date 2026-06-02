@@ -27,6 +27,7 @@ const industryLinks = [
 const companyLinks = [
   { href: "/process", label: "Our Process" },
   { href: "/about", label: "About" },
+  { href: "/blog", label: "Blog" },
   { href: "/contact", label: "Contact" },
 ];
 

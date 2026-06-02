@@ -52,6 +52,7 @@ const nav: NavItem[] = [
       { href: "/areas/perth", label: "Perth" },
     ],
   },
+  { href: "/blog", label: "Blog" },
   { href: "/about", label: "About" },
   { href: "/contact", label: "Contact" },
 ];
