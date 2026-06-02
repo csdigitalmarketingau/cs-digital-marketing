@@ -20,19 +20,19 @@ const profileElements = [
   },
   {
     title: "Services & Descriptions",
-    desc: "Google lets you list up to 99 individual services with 300-character descriptions for each. Most businesses leave this section empty or add a handful of generic entries. We build out a comprehensive service list using the language your customers actually search for, which gives Google far more data to match your profile against relevant queries. The businesses ranking at the top of local results average close to 30 services listed.",
+    desc: "Google lets you list up to 99 individual services with 300-character descriptions for each. Most businesses leave this section empty or add a handful of generic entries. We build a full service list using the words your customers type into Google, which gives Google far more data to match your profile against relevant queries. The businesses ranking at the top of local results average close to 30 services listed.",
   },
   {
     title: "Business Description",
-    desc: "Your description is 750 characters to explain what you do, where you do it, and why someone should choose you. We write descriptions that naturally include your target service terms and location without keyword stuffing. This isn't about gaming the system — it's about clearly telling Google and potential customers exactly what your business offers.",
+    desc: "Your description is 750 characters to explain what you do, where you do it, and why someone should choose you. We write descriptions that naturally include your target service terms and location without keyword stuffing. We write it so Google and the people searching can tell exactly what you do.",
   },
   {
     title: "Photos & Visual Content",
-    desc: "Businesses with more than 100 photos get 520% more calls than the average listing. We help you build a photo strategy that covers your team, your work, your premises, and your service area. Every image gets geotagged to your location, which sends a relevance signal to Google that reinforces where you operate.",
+    desc: "Businesses with more than 100 photos get 520% more calls than the average listing. We help you build a photo strategy that covers your team, your work, your premises, and your service area. Every photo gets tagged with your location so Google knows where you work.",
   },
   {
     title: "Attributes & Features",
-    desc: "Google offers dozens of attributes depending on your business type — everything from payment methods and accessibility features to service options and health protocols. Most businesses skip these entirely. We audit every available attribute for your category and enable everything that applies, because Google rewards completeness.",
+    desc: "Google offers dozens of attributes depending on your business type — everything from payment methods and accessibility features to service options and health protocols. Most businesses skip these entirely. We tick every box that applies to your business. Google gives more visibility to profiles that fill in more fields.",
   },
   {
     title: "Google Posts",
@@ -140,7 +140,7 @@ export default function GBPOptimisation() {
               match what Google looks for.
             </p>
             <p>
-              That is exactly what we fix. We take your Google Business Profile
+              We fix that. We take your Google Business Profile
               from incomplete to fully optimised, covering every element Google
               uses to decide which three businesses to show in the map pack.
             </p>
@@ -177,7 +177,7 @@ export default function GBPOptimisation() {
           </div>
           <p className="text-gray-500 text-sm leading-relaxed mt-8 text-center">
             The local ranking algorithm has not meaningfully changed in over a
-            decade. The fundamentals work — and they keep working.
+            decade.
           </p>
         </div>
       </section>
@@ -228,8 +228,7 @@ export default function GBPOptimisation() {
               reviews, more posts, more attributes.
             </p>
             <p>
-              This is not about tricks or shortcuts. It is about being more
-              thorough than your competitors. When the business next to you has
+              You just need to be more thorough than the business next door. When the business next to you has
               3 services listed and you have 30, when they have 5 photos and
               you have 50, when they post once a month and you post every week
               — Google has a clear signal about which business is more active,
@@ -298,8 +297,7 @@ export default function GBPOptimisation() {
               But GBP optimisation is not a one-time task. Throughout the
               remaining weeks, we continue posting, adding photos, responding
               to reviews, and monitoring your profile against competitors. The
-              initial setup gets you into position. The ongoing activity keeps
-              you there.
+              setup gets you ranking. The ongoing work stops you from slipping.
             </p>
             <p>
               We work with local businesses across{" "}

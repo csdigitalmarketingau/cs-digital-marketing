@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title:
     "Google Review Management | Get More Reviews & Rank Higher in Local Search",
   description:
-    "Google review management for local businesses in Mandurah, Rockingham, and Perth. Build social proof, improve your map pack ranking, and convert more searchers into customers with a proven review strategy.",
+    "Google review management for local businesses in Mandurah, Rockingham, and Perth. Get more reviews, improve your map pack ranking, and turn searchers into customers.",
   alternates: {
     canonical: "https://csdigitalmarketing.au/services/review-management",
   },
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 const reviewImpact = [
   {
     title: "Rankings",
-    desc: "Reviews are a direct ranking factor for the Google Map Pack. Businesses with more reviews and higher ratings consistently rank above competitors with fewer reviews. Google interprets reviews as a signal of trust, relevance, and customer satisfaction.",
+    desc: "Reviews are a direct ranking factor for the Google Map Pack. Businesses with more reviews and higher ratings consistently rank above competitors with fewer reviews. More reviews and better ratings tell Google people actually use and like your business.",
   },
   {
     title: "Click-Through Rate",
@@ -24,14 +24,14 @@ const reviewImpact = [
   },
   {
     title: "Conversion",
-    desc: "88% of consumers trust online reviews as much as personal recommendations. A strong review profile does not just get you more visibility — it turns that visibility into phone calls, website visits, and booked jobs.",
+    desc: "88% of consumers trust online reviews as much as personal recommendations. Good reviews get you more clicks and more calls.",
   },
 ];
 
 const strategies = [
   {
     title: "Direct Review Link",
-    desc: "We create a short, branded link that takes your customers directly to the Google review form — no searching, no clicking through multiple screens. Two taps and they are writing a review. This single change can double your review rate because it removes every point of friction.",
+    desc: "We create a short, branded link that takes your customers directly to the Google review form — no searching, no clicking through multiple screens. Two taps and they are writing a review. This one change can double your reviews because it makes leaving one dead simple.",
   },
   {
     title: "Timing the Ask",
@@ -39,7 +39,7 @@ const strategies = [
   },
   {
     title: "Response Strategy",
-    desc: "Responding to every review — positive and negative — signals to Google that your business is active and engaged. We set up a response framework with templates for common scenarios: thank-you responses for positive reviews, professional responses for negative ones, and keyword-rich replies that naturally include your services and location.",
+    desc: "Responding to every review — positive and negative — signals to Google that your business is active and engaged. We set up a response framework with templates for common scenarios: thank-you responses for positive reviews, professional responses for negative ones, and replies that mention what you do and where, which helps with rankings.",
   },
   {
     title: "Review Velocity",
@@ -120,9 +120,8 @@ export default function ReviewManagement() {
               Beyond rankings, reviews affect every stage of the customer
               journey. They influence whether someone clicks on your listing,
               whether they call you or your competitor, and whether they trust
-              you enough to book. A strong review profile compounds — more
-              visibility leads to more customers, which leads to more reviews,
-              which leads to better rankings.
+              you enough to book. Better rankings bring more customers, more
+              customers leave more reviews, and the cycle keeps going.
             </p>
           </div>
         </div>
@@ -288,8 +287,8 @@ export default function ReviewManagement() {
               >
                 local SEO presence
               </Link>
-              . Each element strengthens the others — and reviews are the
-              element that keeps growing long after the programme ends.
+              . Reviews are the one part that keeps building on its own after
+              we are done.
             </p>
           </div>
         </div>

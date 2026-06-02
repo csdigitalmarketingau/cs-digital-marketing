@@ -47,8 +47,8 @@ export default function MandurahArea() {
             <span className="gold-gradient-text">Mandurah</span>
           </h1>
           <p className="text-lg text-white/60 max-w-2xl mx-auto leading-relaxed animate-fade-up-delay-2">
-            Helping Mandurah businesses rank in the Google Map Pack. Local
-            expertise, data-driven results.
+            Helping Mandurah businesses rank in the Google Map Pack.
+            We&apos;re based here and we know the market.
           </p>
         </div>
       </section>
@@ -65,11 +65,10 @@ export default function MandurahArea() {
           <div className="space-y-4 text-gray-500 leading-relaxed">
             <p>
               Mandurah is a growing city with a competitive local business
-              landscape. Whether you&apos;re a tradie, a restaurant, a health
-              practitioner, or a professional service provider, your customers
-              are searching for you on Google — and if your Google Business
-              Profile isn&apos;t optimised, they&apos;re finding your
-              competitors instead.
+              landscape. Tradies, restaurants, health clinics, professional
+              services — your customers are searching Google for what you do.
+              If your Google Business Profile isn&apos;t optimised,
+              they&apos;re finding your competitors instead.
             </p>
             <p>
               As a Mandurah-based{" "}
@@ -141,7 +140,7 @@ export default function MandurahArea() {
                 },
                 {
                   title: "Review Strategy",
-                  desc: "A compliant review generation system that builds social proof and strengthens your ranking signals in the Mandurah area.",
+                  desc: "We help you get more Google reviews the right way — making it easy for happy customers to leave feedback.",
                 },
               ].map((item) => (
                 <div key={item.title} className="accent-card p-6">

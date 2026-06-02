@@ -54,7 +54,7 @@ export default function Home() {
             <p className="text-lg text-white/60 mb-10 leading-relaxed max-w-xl animate-fade-up-delay-2">
               We help local businesses rank in the Google Map Pack —
               the top 3 results customers see when searching for services near
-              them. Systematic, data-driven, and measurable.
+              them.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 animate-fade-up-delay-3">
               <Link
@@ -135,8 +135,8 @@ export default function Home() {
             <p className="text-gray-500 mt-8 leading-relaxed">
               97% of consumers search online for local businesses. When someone
               searches &ldquo;plumber near me&rdquo; or &ldquo;best cafe
-              Mandurah,&rdquo; Google shows 3 businesses on the map. If
-              you&apos;re not one of them, you&apos;re invisible.
+              Mandurah,&rdquo; Google shows 3 businesses on the map. The rest
+              get skipped.
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -156,8 +156,8 @@ export default function Home() {
               </div>
               <h3 className="font-semibold text-navy text-lg mb-2">Build Trust with Reviews</h3>
               <p className="text-gray-500 text-sm leading-relaxed">
-                A structured review strategy that builds the social proof
-                customers look for before picking up the phone.
+                We help you get more Google reviews so people trust you
+                enough to call.
               </p>
             </div>
             <div className="accent-card p-7">
@@ -183,8 +183,8 @@ export default function Home() {
               The Three Pillars of Local Ranking
             </h2>
             <p className="text-gray-500 mt-8 leading-relaxed">
-              Every part of our 12-week programme targets one of the three
-              factors Google uses to rank local businesses.
+              Google looks at three things when ranking local businesses.
+              We work on all three.
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -192,7 +192,7 @@ export default function Home() {
               number="01"
               title="Google Profile"
               subtitle="Weeks 2–4"
-              description="Your Google Business Profile is the foundation. We optimise every element so Google understands what you offer and where you offer it."
+              description="We fix your categories, services, photos, and description so Google shows you for the right searches."
               items={[
                 "Business category & services",
                 "Description & attributes",
@@ -204,7 +204,7 @@ export default function Home() {
               number="02"
               title="Website SEO"
               subtitle="Weeks 5–6"
-              description="Your website reinforces your Google listing. We make sure Google can connect your site to your service area."
+              description="Your website backs up your Google listing. We add your address, a map, and the right keywords so Google ties them together."
               items={[
                 "Location-targeted pages",
                 "Map embed & business details",
@@ -217,7 +217,7 @@ export default function Home() {
               number="03"
               title="Directory Listings"
               subtitle="Weeks 7–10"
-              description="Consistent business information across 15+ Australian directories builds the trust signals Google relies on for local ranking."
+              description="Same name, address, and phone number on 15+ directories. Google checks these to decide if your business is legit."
               items={[
                 "Google, Apple, Bing, Yelp",
                 "Australian directories",

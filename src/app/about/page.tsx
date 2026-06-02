@@ -32,7 +32,7 @@ export default function About() {
             <span className="gold-gradient-text">Mandurah</span>
           </h1>
           <p className="text-lg text-white/60 max-w-2xl mx-auto leading-relaxed animate-fade-up-delay-2">
-            Helping local businesses get the visibility they deserve on Google.
+            Helping local businesses show up on Google.
           </p>
         </div>
       </section>
@@ -80,9 +80,8 @@ export default function About() {
                 <p>
                   Based in Mandurah, I work with service-area businesses and
                   local storefronts across Rockingham, Baldivis, Pinjarra, and
-                  greater Perth. Every client gets the same systematic,
-                  data-driven approach: audit, optimise, build citations, track
-                  results.
+                  greater Perth. Every client gets the same process: audit,
+                  optimise, build citations, track results.
                 </p>
                 <p>
                   I built proprietary tools to track rankings, manage citations,
@@ -106,9 +105,8 @@ export default function About() {
               How I Work
             </h2>
             <p className="text-gray-500 mt-8 max-w-2xl mx-auto leading-relaxed">
-              Every recommendation is based on data — your current rankings,
-              your competitors&apos; profiles, and what Google&apos;s algorithm
-              actually rewards for local search.
+              I look at your rankings, your competitors, and what Google
+              actually cares about. Then I tell you what to do.
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

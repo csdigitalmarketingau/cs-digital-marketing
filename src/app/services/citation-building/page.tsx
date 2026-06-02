@@ -94,12 +94,11 @@ export default function CitationBuilding() {
               Google uses citations as a trust signal. When it finds your
               business details listed consistently across multiple authoritative
               websites, it gains confidence that your business is real,
-              established, and located where you say you are. This directly
-              feeds into the &ldquo;prominence&rdquo; factor that determines
+              established, and located where you say you are. This is one of the main things Google looks at when deciding
               your map pack ranking.
             </p>
             <p>
-              The key word is <strong>consistently</strong>. If your business
+              If your business
               name is &ldquo;Smith&apos;s Plumbing&rdquo; on Google but
               &ldquo;Smiths Plumbing Services&rdquo; on Yelp and
               &ldquo;Smith Plumbing Pty Ltd&rdquo; on Yellow Pages, Google
@@ -108,9 +107,9 @@ export default function CitationBuilding() {
               building it.
             </p>
             <p>
-              One strong, consistent citation on an authoritative directory is
-              worth more than 50 weak or inconsistent ones. That is why we
-              focus on quality over quantity — building your presence on the
+              A clean listing on Yellow Pages does more for you than 50 sloppy
+              ones on directories nobody uses. That is why we focus on the
+              directories that count — building your presence on the
               directories that actually influence local rankings in Australia.
             </p>
           </div>
@@ -130,7 +129,7 @@ export default function CitationBuilding() {
             <p className="text-gray-500 mt-8 max-w-2xl mx-auto leading-relaxed">
               We have tested and verified which directories carry actual
               authority for Australian local businesses. These are the ones
-              that move the needle.
+              that actually affect your ranking.
             </p>
           </div>
           <div className="overflow-x-auto">

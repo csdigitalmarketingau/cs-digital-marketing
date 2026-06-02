@@ -33,9 +33,8 @@ export default function Process() {
             <span className="gold-gradient-text">on Google</span>
           </h1>
           <p className="text-lg text-white/60 max-w-2xl mx-auto leading-relaxed animate-fade-up-delay-2">
-            A systematic, data-driven methodology. No guesswork, no vague
-            promises — just the three things Google actually cares about for
-            local rankings.
+            Three things matter for local Google rankings. This is how we
+            work on all three.
           </p>
         </div>
       </section>
@@ -51,8 +50,7 @@ export default function Process() {
               Everything Starts with Data
             </h2>
             <p className="text-gray-500 mt-8 max-w-2xl mx-auto leading-relaxed">
-              Before we change anything, we measure everything. Every client
-              engagement starts with a full audit — your current rankings, your
+              First, we check where you are. Your current rankings, your
               competitors&apos; profiles, and where the gaps are. This becomes
               your baseline, and every change we make is tracked against it.
             </p>
@@ -110,8 +108,8 @@ export default function Process() {
               The Three Ranking Pillars
             </h2>
             <p className="text-gray-500 mt-8 max-w-2xl mx-auto leading-relaxed">
-              Google ranks local businesses based on three core signals. Our
-              programme systematically optimises all three.
+              Google looks at three things for local rankings. We work on
+              all three.
             </p>
           </div>
 
@@ -274,7 +272,7 @@ export default function Process() {
               What You Get Throughout
             </h2>
             <p className="text-gray-500 mt-8 max-w-2xl mx-auto leading-relaxed">
-              Full transparency from day one to day eighty-four.
+              You will know exactly what we are doing and why, every week.
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

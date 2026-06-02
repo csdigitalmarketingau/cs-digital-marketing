@@ -48,7 +48,7 @@ export default function RockinghamArea() {
           </h1>
           <p className="text-lg text-white/60 max-w-2xl mx-auto leading-relaxed animate-fade-up-delay-2">
             Helping Rockingham and Baldivis businesses rank in the Google Map
-            Pack. Local expertise, data-driven results.
+            Pack. We&apos;re nearby and we know the area.
           </p>
         </div>
       </section>
@@ -79,10 +79,8 @@ export default function RockinghamArea() {
               >
                 professional GBP optimisation
               </Link>{" "}
-              for Rockingham businesses — the same systematic approach we use
-              across all our clients: audit, optimise, build citations, track
-              results. Every decision is based on data, and every result is
-              measurable.
+              for Rockingham businesses — same process for every client:
+              audit, optimise, build citations, track what changed.
             </p>
             <p>
               Our{" "}
@@ -140,7 +138,7 @@ export default function RockinghamArea() {
                 },
                 {
                   title: "Review Strategy",
-                  desc: "A compliant review generation system that builds social proof and strengthens your ranking signals in the Rockingham area.",
+                  desc: "We help you get more Google reviews the right way — making it easy for happy customers to leave feedback.",
                 },
               ].map((item) => (
                 <div key={item.title} className="accent-card p-6">

@@ -6,7 +6,7 @@ import { FAQJsonLd } from "@/components/JsonLd";
 export const metadata: Metadata = {
   title: "GBP Optimisation Services Mandurah, Rockingham & Perth",
   description:
-    "Professional Google Business Profile optimisation for local businesses in Mandurah, Rockingham, and Perth. 12-week programme to get your business ranking in the Google Map Pack.",
+    "Google Business Profile optimisation for local businesses in Mandurah, Rockingham, and Perth. 12-week programme to get your business ranking in the Google Map Pack.",
   alternates: {
     canonical: "https://csdigitalmarketing.au/services",
   },
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 const included = [
   {
     title: "Full Audit & Benchmark",
-    desc: "We check how your business currently appears on Google, where you rank across your area, and what your top competitors are doing differently. This is your starting point.",
+    desc: "We check how your business currently appears on Google, where you rank across your area, and what your top competitors are doing differently.",
   },
   {
     title: "Google Profile Optimisation",
@@ -31,11 +31,11 @@ const included = [
   },
   {
     title: "Website Tweaks",
-    desc: "We make targeted changes to your website so it reinforces your Google listing — things like adding a map, making sure your business details are visible, and helping Google connect your site to your area.",
+    desc: "We make changes to your website so it backs up your Google listing — adding a map, making your business details visible, and helping Google connect your site to your area.",
   },
   {
     title: "Weekly Progress Updates",
-    desc: "Every week you get a clear email showing what we did and what's next. No mystery, no vague promises — you always know what's happening.",
+    desc: "Every week you get a clear email showing what we did and what's next.",
   },
   {
     title: "Monthly Ranking Reports",
@@ -133,8 +133,8 @@ export default function Services() {
               Our Core Services
             </h2>
             <p className="text-gray-500 mt-8 max-w-2xl mx-auto leading-relaxed">
-              Each service targets a specific ranking factor. Together, they
-              form a complete local SEO system.
+              Each one tackles a different part of how Google ranks local
+              businesses.
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
@@ -205,8 +205,7 @@ export default function Services() {
               How the 12 Weeks Break Down
             </h2>
             <p className="text-gray-500 mt-8 max-w-2xl mx-auto leading-relaxed">
-              Each phase builds on the last. By week 12, all three ranking
-              pillars are working together.
+              Each phase builds on the last.
             </p>
           </div>
           <div className="space-y-8">
@@ -271,14 +270,14 @@ export default function Services() {
         <div className="max-w-6xl mx-auto px-6">
           <div className="text-center mb-14">
             <span className="text-gold text-xs font-semibold uppercase tracking-widest">
-              Everything Included
+              Included
             </span>
             <h2 className="text-3xl md:text-4xl font-bold text-navy mt-3 mb-4 tracking-tight section-divider">
               What&apos;s Included
             </h2>
             <p className="text-gray-500 mt-8 max-w-2xl mx-auto leading-relaxed">
-              Everything you need to rank in the Google Map Pack — no extras, no
-              upsells, no hidden costs during the programme.
+              All of this is part of the 12-week programme. No upsells, no
+              hidden costs.
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-5">

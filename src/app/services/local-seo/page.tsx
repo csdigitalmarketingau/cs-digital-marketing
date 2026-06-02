@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title:
     "Local SEO Services Mandurah, Rockingham & Perth | Rank in Google Maps",
   description:
-    "Local SEO services for businesses in Mandurah, Rockingham, and Perth. We help you rank in the Google Map Pack using a proven three-pillar system: GBP optimisation, on-page SEO, and citation building.",
+    "Local SEO services for businesses in Mandurah, Rockingham, and Perth. We help you rank in the Google Map Pack using a three-pillar system: GBP optimisation, on-page SEO, and citation building.",
   alternates: {
     canonical: "https://csdigitalmarketing.au/services/local-seo",
   },
@@ -17,14 +17,14 @@ const pillars = [
   {
     number: "1",
     title: "Google Business Profile Optimisation",
-    desc: "Your Google Business Profile is the listing that appears in the map pack. We configure every element — categories, services, description, photos, attributes, posts, and Q&A — so Google has maximum data to match your business to relevant local searches. This is the foundation everything else builds on.",
+    desc: "Your Google Business Profile is the listing that appears in the map pack. We configure every element — categories, services, description, photos, attributes, posts, and Q&A — so Google has maximum data to match your business to relevant local searches. Everything else we do builds on this.",
     link: "/services/gbp-optimisation",
     linkText: "Learn more about GBP optimisation",
   },
   {
     number: "2",
     title: "On-Page Website SEO",
-    desc: "Your website reinforces what your Google profile claims. We optimise title tags, heading structure, schema markup, and local content so Google can connect your site to your service area. A properly optimised website sends relevance signals that strengthen your map pack position.",
+    desc: "Your website backs up what your Google profile claims. We optimise title tags, heading structure, schema markup, and local content so Google can connect your site to your service area. When your website matches your profile, Google trusts both more.",
     link: "/services/on-page-seo",
     linkText: "Learn more about on-page SEO",
   },
@@ -101,8 +101,8 @@ export default function LocalSEO() {
             </span>
           </h1>
           <p className="text-lg text-white/60 max-w-2xl mx-auto leading-relaxed animate-fade-up-delay-2">
-            A systematic approach to getting your business found when local
-            customers search for the services you offer.
+            We get your business showing up when local customers search for
+            what you do.
           </p>
         </div>
       </section>
@@ -139,7 +139,7 @@ export default function LocalSEO() {
               the traditional list of blue links. Local SEO focuses on the map
               pack, which requires a different strategy: optimising your Google
               Business Profile, building consistent citations, and making sure
-              your website reinforces your local relevance.
+              your website backs up your local relevance.
             </p>
             <p>
               We specialise exclusively in local SEO for service-area
@@ -164,8 +164,7 @@ export default function LocalSEO() {
               >
                 greater Perth
               </Link>
-              . It is the only thing we do, and we do it systematically through
-              a proven three-pillar approach.
+              . It is the only thing we do.
             </p>
           </div>
         </div>
@@ -182,9 +181,8 @@ export default function LocalSEO() {
               The Three Pillars of Local Ranking
             </h2>
             <p className="text-gray-500 mt-8 max-w-2xl mx-auto leading-relaxed">
-              Every local business that consistently ranks in the map pack has
-              these three things working together. Miss one and the others
-              underperform.
+              Businesses that rank in the map pack have all three of these
+              sorted. Drop one and the others don&apos;t work as well.
             </p>
           </div>
           <div className="space-y-6">
@@ -344,8 +342,7 @@ export default function LocalSEO() {
               we focus exclusively on local search — the map pack, the local
               listings, the directories that matter for businesses serving a
               specific area. We do not offer web design, social media
-              management, or Google Ads. We do one thing and we do it well.
-            </p>
+              management, or Google Ads.            </p>
             <p>
               As a Mandurah-based agency, we understand the local market. We
               know which directories matter for Western Australian businesses,

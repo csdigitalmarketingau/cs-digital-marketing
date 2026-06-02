@@ -5,7 +5,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Google Business Profile Optimisation Perth | Local SEO",
   description:
-    "Get your Perth business found on Google. Professional GBP optimisation for local businesses across Perth, Western Australia. Systematic 12-week programme. Free audit available.",
+    "Get your Perth business found on Google. GBP optimisation for local businesses across Perth, Western Australia. 12-week programme. Free audit available.",
   alternates: {
     canonical: "https://csdigitalmarketing.au/areas/perth",
   },
@@ -47,8 +47,7 @@ export default function PerthArea() {
             <span className="gold-gradient-text">Perth</span>
           </h1>
           <p className="text-lg text-white/60 max-w-2xl mx-auto leading-relaxed animate-fade-up-delay-2">
-            Helping Perth businesses rank in the Google Map Pack. A systematic
-            approach to local search visibility.
+            Helping Perth businesses get into the Google Map Pack.
           </p>
         </div>
       </section>
@@ -81,8 +80,8 @@ export default function PerthArea() {
               </Link>{" "}
               for Perth businesses. Based in the Mandurah-Rockingham corridor,
               we work with service-area businesses and storefronts across the
-              entire Perth metropolitan area. Our approach is the same for every
-              client: systematic, data-driven, and fully transparent.
+              entire Perth metropolitan area. Same process for every client.
+              You&apos;ll see everything we do and why.
             </p>
             <p>
               Our{" "}

@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 const elements = [
   {
     title: "Title Tags",
-    desc: "Your title tag is the most important on-page ranking factor. For local businesses, it needs to include your primary service, your location, and your business name. We write title tags that are keyword-rich without being spammy — hitting the sweet spot that tells both Google and potential customers exactly what you do and where you do it.",
+    desc: "Your title tag is the most important on-page ranking factor. For local businesses, it needs to include your primary service, your location, and your business name. We write title tags that are keyword-rich without being spammy — that tells both Google and your customers exactly what you do and where.",
   },
   {
     title: "H1 & Heading Structure",
@@ -24,7 +24,7 @@ const elements = [
   },
   {
     title: "Local Business Schema Markup",
-    desc: "Schema markup is structured data that tells Google exactly what your business is, where it is located, what services you offer, your hours, your contact details, and your service area. Most local business websites have no schema at all. We add LocalBusiness, Service, and FAQ schema to give Google machine-readable data about your business — the same data your competitors are not providing.",
+    desc: "Schema markup is structured data that tells Google exactly what your business is, where it is located, what services you offer, your hours, your contact details, and your service area. Most local business websites have no schema at all. We add LocalBusiness, Service, and FAQ schema to give Google machine-readable data about your business — data most local businesses skip entirely.",
   },
   {
     title: "NAP Visibility",
@@ -40,7 +40,7 @@ const elements = [
   },
   {
     title: "Geo-Targeted Content",
-    desc: "Pages that mention specific suburbs, landmarks, and local context rank better for searches in those areas. We create or optimise content that naturally references your service area — not keyword-stuffed location pages, but genuinely useful content that demonstrates your local expertise and presence.",
+    desc: "Pages that mention specific suburbs, landmarks, and local context rank better for searches in those areas. We create or optimise content that naturally references your service area — not pages stuffed with suburb names, but actual useful content about your area.",
   },
   {
     title: "Internal Linking",
@@ -84,9 +84,8 @@ export default function OnPageSEO() {
             </span>
           </h1>
           <p className="text-lg text-white/60 max-w-2xl mx-auto leading-relaxed animate-fade-up-delay-2">
-            Your website reinforces everything your Google Business Profile
-            claims. We optimise the elements that connect your site to your
-            service area and strengthen your map pack position.
+            Your website backs up your Google listing. We fix the parts that
+            help Google tie them together.
           </p>
         </div>
       </section>
@@ -138,8 +137,8 @@ export default function OnPageSEO() {
               On-Page Elements We Optimise
             </h2>
             <p className="text-gray-500 mt-8 max-w-2xl mx-auto leading-relaxed">
-              Each of these elements sends a signal to Google about your
-              business, your location, and your relevance to local searches.
+              Each one tells Google something about who you are and where you
+              work.
             </p>
           </div>
           <div className="space-y-5">
@@ -195,7 +194,7 @@ export default function OnPageSEO() {
             </p>
             <p>
               A business with 30 well-structured pages covering specific
-              services and areas will consistently outrank a business with 5
+              services and areas will outrank a business with 5
               generic pages — even if the 5-page site has better content on
               each individual page. Volume and structure matter for local SEO.
             </p>
@@ -230,15 +229,14 @@ export default function OnPageSEO() {
               </Link>{" "}
               is fully optimised. By this point, we know your target keywords,
               your service area, and your competitive landscape — so the
-              website changes are targeted and strategic, not guesswork.
+              we know exactly what to change on your website.
             </p>
             <p>
               We make changes that reinforce your GBP data: matching title
               tags to your target keywords, adding schema markup that mirrors
               your profile information, embedding maps, and making sure your
               NAP data is consistent between your website and every other
-              platform. This creates a unified signal that strengthens
-              everything.
+              platform.
             </p>
             <p>
               The on-page improvements then support the{" "}
