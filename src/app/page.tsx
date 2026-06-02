@@ -265,24 +265,27 @@ export default function Home() {
             <div className="md:w-1/2">
               <div className="grid grid-cols-2 gap-3">
                 {[
-                  { name: "Tradies & Builders", icon: "wrench" },
-                  { name: "Landscapers", icon: "tree" },
-                  { name: "Cleaners", icon: "sparkles" },
-                  { name: "Locksmiths", icon: "key" },
-                  { name: "Celebrants", icon: "heart" },
-                  { name: "Health & Beauty", icon: "star" },
-                  { name: "Restaurants & Cafes", icon: "coffee" },
-                  { name: "Professional Services", icon: "briefcase" },
+                  { name: "Plumbers", icon: "wrench", href: "/industries/plumbers" },
+                  { name: "Electricians", icon: "wrench", href: "/industries/electricians" },
+                  { name: "Builders", icon: "wrench", href: "/industries/builders" },
+                  { name: "Landscapers", icon: "tree", href: "/industries/landscapers" },
+                  { name: "Cleaners", icon: "sparkles", href: "/industries/cleaners" },
+                  { name: "Locksmiths", icon: "key", href: "/industries/locksmiths" },
+                  { name: "Celebrants", icon: "heart", href: "/industries/celebrants" },
+                  { name: "Health & Beauty", icon: "star", href: "/industries/health-beauty" },
+                  { name: "Restaurants & Cafes", icon: "coffee", href: "/industries/restaurants-cafes" },
+                  { name: "Professional Services", icon: "briefcase", href: "/industries/professional-services" },
                 ].map((niche) => (
-                  <div
+                  <Link
                     key={niche.name}
+                    href={niche.href}
                     className="group flex items-center gap-3 bg-white border border-gray-100 rounded-xl px-4 py-3.5 hover:border-gold/30 hover:shadow-sm transition-all"
                   >
                     <div className="w-8 h-8 rounded-lg bg-navy/5 group-hover:bg-gold/10 flex items-center justify-center transition-colors">
                       <NicheIcon name={niche.icon} />
                     </div>
-                    <span className="text-sm font-medium text-navy">{niche.name}</span>
-                  </div>
+                    <span className="text-sm font-medium text-navy group-hover:text-gold transition-colors">{niche.name}</span>
+                  </Link>
                 ))}
               </div>
             </div>

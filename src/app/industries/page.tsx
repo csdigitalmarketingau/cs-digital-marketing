@@ -23,6 +23,11 @@ const industries = [
     href: "/industries/electricians",
   },
   {
+    title: "Builders",
+    desc: "Construction and building searches carry serious commercial intent. People searching for builders are ready to spend. Ranking in the map pack puts you in front of them at the right moment.",
+    href: "/industries/builders",
+  },
+  {
     title: "Cleaners",
     desc: "Cleaning is a crowded market online. Dozens of businesses compete for the same suburb-level searches. Standing out in the map pack is the difference between a full schedule and an empty one.",
     href: "/industries/cleaners",
@@ -33,9 +38,29 @@ const industries = [
     href: "/industries/landscapers",
   },
   {
-    title: "Builders",
-    desc: "Construction and building searches carry high commercial intent. People searching for builders are ready to spend. Ranking in the map pack puts you in front of them at the right moment.",
-    href: "/industries/builders",
+    title: "Locksmiths",
+    desc: "Locksmith searches are the most urgent local searches on Google. Someone locked out at midnight calls the first result they see. We make sure that is you.",
+    href: "/industries/locksmiths",
+  },
+  {
+    title: "Celebrants",
+    desc: "Couples research celebrants on Google before reaching out. Your ceremony photos, reviews, and profile description are what they compare. We make yours stand out.",
+    href: "/industries/celebrants",
+  },
+  {
+    title: "Health & Beauty",
+    desc: "Salons, spas, clinics, and wellness providers. One of the most searched local categories on Google. Reviews and photos carry extra weight in this industry.",
+    href: "/industries/health-beauty",
+  },
+  {
+    title: "Restaurants & Cafes",
+    desc: "\"Restaurants near me\" is one of the most common Google searches in Australia. Your menu, photos, reviews, and hours decide whether people walk through your door.",
+    href: "/industries/restaurants-cafes",
+  },
+  {
+    title: "Professional Services",
+    desc: "Accountants, lawyers, financial advisers. High-value, long-term clients who search Google when they need you. One new client can be worth thousands in recurring fees.",
+    href: "/industries/professional-services",
   },
 ];
 
