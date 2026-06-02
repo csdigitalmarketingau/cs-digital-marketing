@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 const profileElements = [
   {
     title: "Business Categories",
-    desc: "Your primary category is the single strongest ranking signal in your Google Business Profile. Most businesses ranking in the top 3 use just one or two categories — not five or six. We research your market to pick the exact category Google associates with your services, then add only the secondary categories that genuinely apply. Getting this wrong pushes you out of the map pack for the searches that matter most.",
+    desc: "Your primary category is the single strongest ranking signal in your Google Business Profile. Most businesses ranking in the top 3 use just one or two categories, not five or six. We research your market to pick the exact category Google associates with your services, then add only the secondary categories that genuinely apply. Getting this wrong pushes you out of the map pack for the searches that matter most.",
   },
   {
     title: "Services & Descriptions",
@@ -32,19 +32,19 @@ const profileElements = [
   },
   {
     title: "Attributes & Features",
-    desc: "Google offers dozens of attributes depending on your business type — everything from payment methods and accessibility features to service options and health protocols. Most businesses skip these entirely. We tick every box that applies to your business. Google gives more visibility to profiles that fill in more fields.",
+    desc: "Google offers dozens of attributes depending on your business type, from payment methods and accessibility features to service options and health protocols. Most businesses skip these entirely. We tick every box that applies to your business. Google gives more visibility to profiles that fill in more fields.",
   },
   {
     title: "Google Posts",
-    desc: "Regular posting signals to Google that your business is active and engaged. We set up a posting schedule covering offers, updates, and service highlights — at least weekly, ideally twice a week. Each post includes a geotagged image and a clear call to action. This keeps your profile fresh and gives Google more content to associate with your business.",
+    desc: "Regular posting signals to Google that your business is active and engaged. We set up a posting schedule covering offers, updates, and service highlights, at least weekly and ideally twice a week. Each post includes a geotagged image and a clear call to action. This keeps your profile fresh and gives Google more content to associate with your business.",
   },
   {
     title: "Q&A Section",
-    desc: "The Questions & Answers section on your profile is publicly visible and often ignored. We seed it with the questions your potential customers actually ask — service areas, pricing, availability, specialties — and provide clear, helpful answers. This creates additional keyword-rich content directly on your listing.",
+    desc: "The Questions & Answers section on your profile is publicly visible and often ignored. We seed it with the questions your potential customers actually ask (service areas, pricing, availability, specialties) and provide clear, helpful answers. This creates additional keyword-rich content directly on your listing.",
   },
   {
     title: "Review Management Setup",
-    desc: "We set up a review generation system with a direct link your customers can use to leave a Google review in two taps. We also configure your profile for review responses, because businesses that reply to every review — positive and negative — rank higher and convert more searchers into customers.",
+    desc: "We set up a review generation system with a direct link your customers can use to leave a Google review in two taps. We also configure your profile for review responses, because businesses that reply to every review, both positive and negative, rank higher and convert more searchers into customers.",
   },
 ];
 
@@ -117,8 +117,8 @@ export default function GBPOptimisation() {
           </h2>
           <div className="space-y-4 text-gray-500 leading-relaxed">
             <p>
-              When someone searches for a service near them — &ldquo;plumber
-              Mandurah&rdquo; or &ldquo;electrician Rockingham&rdquo; — Google
+              When someone searches for a service near them, like &ldquo;plumber
+              Mandurah&rdquo; or &ldquo;electrician Rockingham&rdquo;, Google
               shows a map with three local businesses at the top of the results.
               This is called the Google Map Pack, and it gets more clicks than
               the regular website results below it.
@@ -135,7 +135,7 @@ export default function GBPOptimisation() {
               never touch it again. They pick the wrong category, leave
               services blank, have three photos from 2019, and wonder why
               they never appear in the map results. Meanwhile, their
-              competitors — the ones who show up every time — have profiles
+              competitors, the ones who show up every time, have profiles
               that are fully built out, regularly updated, and configured to
               match what Google looks for.
             </p>
@@ -224,20 +224,20 @@ export default function GBPOptimisation() {
               Google&apos;s own documentation states that businesses with
               complete profiles are 2.7 times more likely to be considered
               reputable. The algorithm rewards profiles that give it more
-              information to work with — more services, more photos, more
+              information to work with: more services, more photos, more
               reviews, more posts, more attributes.
             </p>
             <p>
               You just need to be more thorough than the business next door. When the business next to you has
               3 services listed and you have 30, when they have 5 photos and
-              you have 50, when they post once a month and you post every week
-              — Google has a clear signal about which business is more active,
+              you have 50, when they post once a month and you post every week,
+              Google has a clear signal about which business is more active,
               more complete, and more relevant.
             </p>
             <p>
               Our job is to make your profile the most complete, most accurate,
               and most active listing in your area. That is the foundation
-              everything else builds on — your{" "}
+              everything else builds on. Your{" "}
               <Link
                 href="/services/on-page-seo"
                 className="text-gold hover:underline font-medium"
@@ -289,7 +289,7 @@ export default function GBPOptimisation() {
               >
                 12-week programme
               </Link>
-              , we work through every element listed above — categories,
+              , we work through every element listed above: categories,
               services, description, photos, attributes, posts, Q&A, and review
               setup.
             </p>
@@ -320,8 +320,8 @@ export default function GBPOptimisation() {
                 className="text-gold hover:underline font-medium"
               >
                 greater Perth
-              </Link>{" "}
-              — tradies, health practitioners, professional services, hospitality,
+              </Link>
+              , including tradies, health practitioners, professional services, hospitality,
               and more. If your customers search for you on Google, this is where
               we start.
             </p>

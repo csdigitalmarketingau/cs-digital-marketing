@@ -19,7 +19,7 @@ const included = [
   },
   {
     title: "Google Profile Optimisation",
-    desc: "We configure every part of your Google listing — your business category, services, description, photos, and Q&A — so Google shows your business to the right people.",
+    desc: "We configure every part of your Google listing (your business category, services, description, photos, and Q&A) so Google shows your business to the right people.",
   },
   {
     title: "Directory Listings (15+ Sites)",
@@ -31,7 +31,7 @@ const included = [
   },
   {
     title: "Website Tweaks",
-    desc: "We make changes to your website so it backs up your Google listing — adding a map, making your business details visible, and helping Google connect your site to your area.",
+    desc: "We make changes to your website so it backs up your Google listing, adding a map, making your business details visible, and helping Google connect your site to your area.",
   },
   {
     title: "Weekly Progress Updates",
@@ -43,7 +43,7 @@ const included = [
   },
   {
     title: "Competitor Monitoring",
-    desc: "We keep an eye on what your competitors are doing on Google — and flag anything dodgy like fake listings or misleading business names.",
+    desc: "We keep an eye on what your competitors are doing on Google and flag anything dodgy like fake listings or misleading business names.",
   },
 ];
 
@@ -51,12 +51,12 @@ const faqs = [
   {
     question: "How long does it take to see results?",
     answer:
-      "Most clients see their Google rankings improve within 4-6 weeks. The full 12-week programme builds long-term results by working on your Google profile, your website, and your directory listings — all the things Google looks at when deciding who to show first.",
+      "Most clients see their Google rankings improve within 4-6 weeks. The full 12-week programme builds long-term results by working on your Google profile, your website, and your directory listings. These are all the things Google looks at when deciding who to show first.",
   },
   {
     question: "What is Google Business Profile optimisation?",
     answer:
-      'When someone searches for a service near them (like "plumber Mandurah"), Google shows a map with 3 local businesses. Your Google Business Profile is that listing. Optimisation means setting it up properly — your category, services, photos, reviews, description — so Google is more likely to show YOUR business in those top 3 spots.',
+      'When someone searches for a service near them (like "plumber Mandurah"), Google shows a map with 3 local businesses. Your Google Business Profile is that listing. Optimisation means setting it up properly (your category, services, photos, reviews, and description) so Google is more likely to show YOUR business in those top 3 spots.',
   },
   {
     question: "Do you lock clients into long-term contracts?",
@@ -71,22 +71,22 @@ const faqs = [
   {
     question: "What types of businesses do you work with?",
     answer:
-      "Any local business that relies on customers finding them on Google — tradies, landscapers, cleaners, locksmiths, beauty salons, cafes, professional services, and more. If people in your area are searching for what you do, we can help you show up.",
+      "Any local business that relies on customers finding them on Google: tradies, landscapers, cleaners, locksmiths, beauty salons, cafes, professional services, and more. If people in your area are searching for what you do, we can help you show up.",
   },
   {
     question: "How is this different from regular website SEO?",
     answer:
-      "Regular SEO focuses on getting your website to rank in Google's main search results. We focus on the map results — the local listings that appear when someone searches for a service near them. These are two different things, and the map results are where most local customers click first.",
+      "Regular SEO focuses on getting your website to rank in Google's main search results. We focus on the map results, the local listings that appear when someone searches for a service near them. These are two different things, and the map results are where most local customers click first.",
   },
   {
     question: "What do I need to provide?",
     answer:
-      "Just access to your Google Business Profile (we'll walk you through how to share it) and your website login if we need to make any changes. That's it — we handle everything else and keep you updated every week.",
+      "Just access to your Google Business Profile (we'll walk you through how to share it) and your website login if we need to make any changes. That's it. We handle everything else and keep you updated every week.",
   },
   {
     question: "How much does it cost?",
     answer:
-      "Pricing depends on your market and how competitive your area is. Get in touch for a free audit — we'll look at your current situation and give you a clear, upfront quote with no hidden fees.",
+      "Pricing depends on your market and how competitive your area is. Get in touch for a free audit, and we'll look at your current situation and give you a clear, upfront quote with no hidden fees.",
   },
 ];
 
@@ -141,7 +141,7 @@ export default function Services() {
             {[
               {
                 title: "GBP Optimisation",
-                desc: "Complete Google Business Profile setup and configuration — categories, services, photos, posts, and attributes.",
+                desc: "Complete Google Business Profile setup and configuration: categories, services, photos, posts, and attributes.",
                 href: "/services/gbp-optimisation",
               },
               {
@@ -214,19 +214,19 @@ export default function Services() {
                 weeks: "Week 1",
                 title: "Audit & Benchmark",
                 detail:
-                  "We check how your business currently shows up on Google — your profile, your rankings across your area, and what your competitors are doing. This becomes your 'before' snapshot.",
+                  "We check how your business currently shows up on Google: your profile, your rankings across your area, and what your competitors are doing. This becomes your 'before' snapshot.",
               },
               {
                 weeks: "Weeks 2-4",
                 title: "Google Profile Optimisation",
                 detail:
-                  "We set up your Google Business Profile properly — your business category, a full list of services, description, photos, Q&A, and everything else Google looks at when deciding who to show first.",
+                  "We set up your Google Business Profile properly: your business category, a full list of services, description, photos, Q&A, and everything else Google looks at when deciding who to show first.",
               },
               {
                 weeks: "Weeks 5-6",
                 title: "Website Improvements",
                 detail:
-                  "We make changes to your website so it supports your Google listing — adding a map, making sure your business details are easy to find, and helping Google connect your site to your service area.",
+                  "We make changes to your website so it supports your Google listing, adding a map, making sure your business details are easy to find, and helping Google connect your site to your service area.",
               },
               {
                 weeks: "Weeks 7-10",
@@ -370,7 +370,7 @@ export default function Services() {
           </h2>
           <p className="text-white/50 mb-10 text-lg max-w-lg mx-auto">
             We&apos;ll run a free audit of your Google Business Profile and show
-            you exactly what needs fixing — no obligation.
+            you exactly what needs fixing, no obligation.
           </p>
           <Link
             href="/contact"

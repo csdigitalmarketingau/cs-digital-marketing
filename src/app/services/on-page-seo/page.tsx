@@ -16,19 +16,19 @@ export const metadata: Metadata = {
 const elements = [
   {
     title: "Title Tags",
-    desc: "Your title tag is the most important on-page ranking factor. For local businesses, it needs to include your primary service, your location, and your business name. We write title tags that are keyword-rich without being spammy — that tells both Google and your customers exactly what you do and where.",
+    desc: "Your title tag is the most important on-page ranking factor. For local businesses, it needs to include your primary service, your location, and your business name. We write title tags that are keyword-rich without being spammy. That tells both Google and your customers exactly what you do and where.",
   },
   {
     title: "H1 & Heading Structure",
-    desc: "Your H1 is the main heading on each page and should match your primary keyword and location. Below that, H2s and H3s create a logical hierarchy that helps Google understand the structure of your content. We audit and fix heading hierarchy issues — skipped levels, duplicate H1s, and generic headings that waste ranking potential.",
+    desc: "Your H1 is the main heading on each page and should match your primary keyword and location. Below that, H2s and H3s create a logical hierarchy that helps Google understand the structure of your content. We audit and fix heading hierarchy issues: skipped levels, duplicate H1s, and generic headings that waste ranking potential.",
   },
   {
     title: "Local Business Schema Markup",
-    desc: "Schema markup is structured data that tells Google exactly what your business is, where it is located, what services you offer, your hours, your contact details, and your service area. Most local business websites have no schema at all. We add LocalBusiness, Service, and FAQ schema to give Google machine-readable data about your business — data most local businesses skip entirely.",
+    desc: "Schema markup is structured data that tells Google exactly what your business is, where it is located, what services you offer, your hours, your contact details, and your service area. Most local business websites have no schema at all. We add LocalBusiness, Service, and FAQ schema to give Google machine-readable data about your business. Most local businesses skip this entirely.",
   },
   {
     title: "NAP Visibility",
-    desc: "Your business name, address, and phone number need to be visible on every page of your website — typically in the footer. This consistency between your website, your Google Business Profile, and your directory citations creates a strong signal that reinforces your local relevance. We make sure your NAP is crawlable text, not embedded in images where Google cannot read it.",
+    desc: "Your business name, address, and phone number need to be visible on every page of your website, typically in the footer. This consistency between your website, your Google Business Profile, and your directory citations creates a strong signal that reinforces your local relevance. We make sure your NAP is crawlable text, not embedded in images where Google cannot read it.",
   },
   {
     title: "Google Maps Embed",
@@ -40,7 +40,7 @@ const elements = [
   },
   {
     title: "Geo-Targeted Content",
-    desc: "Pages that mention specific suburbs, landmarks, and local context rank better for searches in those areas. We create or optimise content that naturally references your service area — not pages stuffed with suburb names, but actual useful content about your area.",
+    desc: "Pages that mention specific suburbs, landmarks, and local context rank better for searches in those areas. We create or optimise content that naturally references your service area. Not pages stuffed with suburb names, but actual useful content about your area.",
   },
   {
     title: "Internal Linking",
@@ -103,14 +103,14 @@ export default function OnPageSEO() {
             <p>
               Many business owners think local SEO is just about their Google
               Business Profile. The profile is the most important factor, but
-              your website is the second pillar — and without it, your profile
+              your website is the second pillar, and without it your profile
               is working alone.
             </p>
             <p>
               Google cross-references the information on your website with
               what is on your Google Business Profile and your directory
-              citations. When all three sources tell the same story — same
-              business name, same address, same services, same service area —
+              citations. When all three sources tell the same story (same
+              business name, same address, same services, same service area)
               Google has high confidence in your listing. When your website
               contradicts or fails to support your profile, that confidence
               drops.
@@ -195,7 +195,7 @@ export default function OnPageSEO() {
             <p>
               A business with 30 well-structured pages covering specific
               services and areas will outrank a business with 5
-              generic pages — even if the 5-page site has better content on
+              generic pages, even if the 5-page site has better content on
               each individual page. Volume and structure matter for local SEO.
             </p>
           </div>
@@ -228,7 +228,7 @@ export default function OnPageSEO() {
                 Google Business Profile
               </Link>{" "}
               is fully optimised. By this point, we know your target keywords,
-              your service area, and your competitive landscape — so the
+              your service area, and your competitive landscape, so the
               we know exactly what to change on your website.
             </p>
             <p>

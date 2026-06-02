@@ -17,7 +17,7 @@ const pillars = [
   {
     number: "1",
     title: "Google Business Profile Optimisation",
-    desc: "Your Google Business Profile is the listing that appears in the map pack. We configure every element — categories, services, description, photos, attributes, posts, and Q&A — so Google has maximum data to match your business to relevant local searches. Everything else we do builds on this.",
+    desc: "Your Google Business Profile is the listing that appears in the map pack. We configure every element (categories, services, description, photos, attributes, posts, and Q&A) so Google has maximum data to match your business to relevant local searches. Everything else we do builds on this.",
     link: "/services/gbp-optimisation",
     linkText: "Learn more about GBP optimisation",
   },
@@ -31,7 +31,7 @@ const pillars = [
   {
     number: "3",
     title: "Citation Building",
-    desc: "Citations are mentions of your business name, address, and phone number on other websites — directories like Apple Maps, Bing Places, Yelp, and Yellow Pages. Consistent citations across authoritative directories tell Google your business is legitimate and established. Inconsistent or missing citations weaken your ranking potential.",
+    desc: "Citations are mentions of your business name, address, and phone number on other websites: directories like Apple Maps, Bing Places, Yelp, and Yellow Pages. Consistent citations across authoritative directories tell Google your business is legitimate and established. Inconsistent or missing citations weaken your ranking potential.",
     link: "/services/citation-building",
     linkText: "Learn more about citation building",
   },
@@ -40,8 +40,8 @@ const pillars = [
 const differences = [
   {
     aspect: "What it targets",
-    localSeo: "Google Map Pack — the 3 local results with the map",
-    regularSeo: "Organic results — the 10 blue links below the map",
+    localSeo: "Google Map Pack. The 3 local results with the map",
+    regularSeo: "Organic results. The 10 blue links below the map",
   },
   {
     aspect: "Main ranking factor",
@@ -122,20 +122,20 @@ export default function LocalSEO() {
               your business appears when people in your area search for the
               services you provide. When someone types &ldquo;plumber near
               me&rdquo; or &ldquo;electrician Mandurah&rdquo; into Google, the
-              businesses that appear at the top have invested in local SEO —
+              businesses that appear at the top have invested in local SEO,
               whether they know it or not.
             </p>
             <p>
               97% of consumers search online for local businesses. 46% of all
               Google searches have local intent. And the businesses that appear
-              in the Google Map Pack — the three listings shown with a map at
-              the top of search results — capture the majority of clicks. If
+              in the Google Map Pack, the three listings shown with a map at
+              the top of search results, capture the majority of clicks. If
               your business is not in those top three results, you are
               invisible to most of your potential customers.
             </p>
             <p>
               Local SEO is different from regular website SEO. Regular SEO
-              focuses on getting your website to rank in the organic results —
+              focuses on getting your website to rank in the organic results,
               the traditional list of blue links. Local SEO focuses on the map
               pack, which requires a different strategy: optimising your Google
               Business Profile, building consistent citations, and making sure
@@ -289,7 +289,7 @@ export default function LocalSEO() {
           <div className="space-y-4 text-gray-500 leading-relaxed">
             <p>
               Our local SEO services are built for businesses that rely on
-              customers finding them through Google — not businesses selling
+              customers finding them through Google, not businesses selling
               products online or operating nationally. If people in your area
               search for what you do and you want to be the business they find,
               this is for you.
@@ -333,13 +333,13 @@ export default function LocalSEO() {
               areas in Western Australia. New suburbs, new businesses, and a
               growing population mean more people searching for local services
               on Google every month. For established businesses, that means
-              more competition. For new businesses, it means opportunity — if
+              more competition. For new businesses, it means opportunity if
               you get your local SEO right from the start.
             </p>
             <p>
               Perth is a larger, more competitive market where many agencies
               offer broad digital marketing services. We are different because
-              we focus exclusively on local search — the map pack, the local
+              we focus exclusively on local search: the map pack, the local
               listings, the directories that matter for businesses serving a
               specific area. We do not offer web design, social media
               management, or Google Ads.            </p>

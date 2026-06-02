@@ -46,7 +46,7 @@ export default function About() {
               <div className="relative">
                 <Image
                   src="/coen-stewart.jpg"
-                  alt="Coen Stewart — Founder of CS Digital Marketing"
+                  alt="Coen Stewart, Founder of CS Digital Marketing"
                   width={400}
                   height={500}
                   className="rounded-2xl object-cover w-full shadow-lg"
@@ -71,7 +71,7 @@ export default function About() {
                   with optimised Google profiles were taking the calls.
                 </p>
                 <p>
-                  I focus on one thing — getting local businesses found on
+                  I focus on one thing: getting local businesses found on
                   Google. No fluff, no thousand-dollar retainers for vague
                   &ldquo;digital strategy.&rdquo; Just practical, measurable
                   work on the platform that matters most for local search: your
@@ -85,7 +85,7 @@ export default function About() {
                 </p>
                 <p>
                   I built proprietary tools to track rankings, manage citations,
-                  and generate detailed reports — so you always know exactly
+                  and generate detailed reports, so you always know exactly
                   where you stand and what&apos;s been done.
                 </p>
               </div>

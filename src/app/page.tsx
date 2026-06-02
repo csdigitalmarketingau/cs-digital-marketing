@@ -52,7 +52,7 @@ export default function Home() {
               </span>
             </h1>
             <p className="text-lg text-white/60 mb-10 leading-relaxed max-w-xl animate-fade-up-delay-2">
-              We help local businesses rank in the Google Map Pack —
+              We help local businesses rank in the Google Map Pack,
               the top 3 results customers see when searching for services near
               them.
             </p>
@@ -147,7 +147,7 @@ export default function Home() {
               <h3 className="font-semibold text-navy text-lg mb-2">Get Found Locally</h3>
               <p className="text-gray-500 text-sm leading-relaxed">
                 Appear in the Google Map Pack when customers search for your
-                services in your area — not buried on page 2.
+                services in your area, not buried on page 2.
               </p>
             </div>
             <div className="accent-card p-7">
@@ -167,7 +167,7 @@ export default function Home() {
               <h3 className="font-semibold text-navy text-lg mb-2">Track Real Results</h3>
               <p className="text-gray-500 text-sm leading-relaxed">
                 Monthly heatmap reports showing exactly where you rank across
-                your service area — not vanity metrics, real data.
+                your service area. Real data, not vanity metrics.
               </p>
             </div>
           </div>
@@ -242,7 +242,7 @@ export default function Home() {
               </h2>
               <p className="text-gray-500 leading-relaxed mb-6">
                 We specialise in businesses that depend on local customers
-                finding them on Google — tradies, professionals, and
+                finding them on Google: tradies, professionals, and
                 storefronts across the Mandurah, Rockingham, and Perth region.
               </p>
               <p className="text-gray-500 leading-relaxed mb-8">

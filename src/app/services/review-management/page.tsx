@@ -31,15 +31,15 @@ const reviewImpact = [
 const strategies = [
   {
     title: "Direct Review Link",
-    desc: "We create a short, branded link that takes your customers directly to the Google review form — no searching, no clicking through multiple screens. Two taps and they are writing a review. This one change can double your reviews because it makes leaving one dead simple.",
+    desc: "We create a short, branded link that takes your customers directly to the Google review form. No searching, no clicking through multiple screens. Two taps and they are writing a review. This one change can double your reviews because it makes leaving one dead simple.",
   },
   {
     title: "Timing the Ask",
-    desc: "The best time to ask for a review is immediately after delivering a positive experience — when the customer is most satisfied and the interaction is fresh. We help you identify these moments and build the ask into your normal workflow so it feels natural, not forced.",
+    desc: "The best time to ask for a review is immediately after delivering a positive experience, when the customer is most satisfied and the interaction is fresh. We help you identify these moments and build the ask into your normal workflow so it feels natural, not forced.",
   },
   {
     title: "Response Strategy",
-    desc: "Responding to every review — positive and negative — signals to Google that your business is active and engaged. We set up a response framework with templates for common scenarios: thank-you responses for positive reviews, professional responses for negative ones, and replies that mention what you do and where, which helps with rankings.",
+    desc: "Responding to every review, both positive and negative, signals to Google that your business is active and engaged. We set up a response framework with templates for common scenarios: thank-you responses for positive reviews, professional responses for negative ones, and replies that mention what you do and where, which helps with rankings.",
   },
   {
     title: "Review Velocity",
@@ -102,7 +102,7 @@ export default function ReviewManagement() {
           <div className="space-y-4 text-gray-500 leading-relaxed">
             <p>
               Google reviews are not just social proof for potential customers
-              — they are a direct ranking signal for the Google Map Pack. When
+  . They are a direct ranking signal for the Google Map Pack. When
               Google decides which three businesses to show for a local search,
               review quantity, quality, and recency all factor into that
               decision.
@@ -208,7 +208,7 @@ export default function ReviewManagement() {
             <p>
               For positive reviews, a genuine thank-you response that mentions
               the specific service reinforces what you do. &ldquo;Thanks for
-              the kind words about the hot water installation — glad we could
+              the kind words about the hot water installation. Glad we could
               get it sorted quickly for you in Halls Head&rdquo; is better
               than &ldquo;Thanks for the review!&rdquo;
             </p>

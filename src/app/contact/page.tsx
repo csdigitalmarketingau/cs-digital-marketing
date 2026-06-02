@@ -359,7 +359,7 @@ export default function Contact() {
                   "We reply within 24 hours",
                   "We run a free audit of your Google Business Profile",
                   "We walk you through the findings and what we'd recommend",
-                  "You decide if you want to proceed — no pressure",
+                  "You decide if you want to proceed, no pressure",
                 ].map((step, i) => (
                   <li key={i} className="flex items-start gap-3">
                     <span className="w-6 h-6 bg-gold/10 text-gold text-xs font-bold rounded-full flex items-center justify-center shrink-0 mt-0.5">

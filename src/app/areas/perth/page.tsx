@@ -64,8 +64,8 @@ export default function PerthArea() {
           <div className="space-y-4 text-gray-500 leading-relaxed">
             <p>
               Perth is a large, competitive market with thousands of local
-              businesses competing for visibility on Google. The Google Map Pack
-              — the top 3 local results that appear with a map — captures the
+              businesses competing for visibility on Google. The Google Map Pack,
+              the top 3 local results that appear with a map, captures the
               majority of clicks for local searches. If you&apos;re not in that
               top 3, you&apos;re effectively invisible to most potential
               customers.
@@ -91,8 +91,8 @@ export default function PerthArea() {
               >
                 12-week programme
               </Link>{" "}
-              covers all three ranking pillars — GBP optimisation, on-page SEO,
-              and citation building across 15+ Australian directories — with weekly updates
+              covers all three ranking pillars: GBP optimisation, on-page SEO,
+              and citation building across 15+ Australian directories. Weekly updates
               and monthly heatmap reports tracking your progress across your
               service area.
             </p>
@@ -140,7 +140,7 @@ export default function PerthArea() {
                 },
                 {
                   title: "Competitive Intelligence",
-                  desc: "We analyse your top Perth competitors — their categories, services, reviews, and listing quality — to find opportunities they're missing.",
+                  desc: "We analyse your top Perth competitors, their categories, services, reviews, and listing quality, to find opportunities they're missing.",
                 },
               ].map((item) => (
                 <div key={item.title} className="accent-card p-6">

@@ -66,7 +66,7 @@ export default function MandurahArea() {
             <p>
               Mandurah is a growing city with a competitive local business
               landscape. Tradies, restaurants, health clinics, professional
-              services — your customers are searching Google for what you do.
+              services. Your customers are searching Google for what you do.
               If your Google Business Profile isn&apos;t optimised,
               they&apos;re finding your competitors instead.
             </p>
@@ -92,7 +92,7 @@ export default function MandurahArea() {
                 12-week programme
               </Link>{" "}
               covers all three ranking pillars: GBP optimisation, on-page SEO,
-              and citation building across 15+ Australian directories — with weekly updates
+              and citation building across 15+ Australian directories, with weekly updates
               and monthly heatmap reports so you see exactly what&apos;s
               changing.
             </p>
@@ -140,7 +140,7 @@ export default function MandurahArea() {
                 },
                 {
                   title: "Review Strategy",
-                  desc: "We help you get more Google reviews the right way — making it easy for happy customers to leave feedback.",
+                  desc: "We help you get more Google reviews the right way, making it easy for happy customers to leave feedback.",
                 },
               ].map((item) => (
                 <div key={item.title} className="accent-card p-6">

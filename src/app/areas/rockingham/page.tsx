@@ -64,8 +64,8 @@ export default function RockinghamArea() {
           </h2>
           <div className="space-y-4 text-gray-500 leading-relaxed">
             <p>
-              Rockingham and the surrounding suburbs — including fast-growing
-              areas like Baldivis, Secret Harbour, and Port Kennedy — have an
+              Rockingham and the surrounding suburbs, including fast-growing
+              areas like Baldivis, Secret Harbour, and Port Kennedy, have an
               increasingly competitive local business landscape. If someone
               searches for your service in Rockingham and you&apos;re not in the
               top 3 of the Google Map Pack, you&apos;re missing out on calls and
@@ -79,7 +79,7 @@ export default function RockinghamArea() {
               >
                 professional GBP optimisation
               </Link>{" "}
-              for Rockingham businesses — same process for every client:
+              for Rockingham businesses. Same process for every client:
               audit, optimise, build citations, track what changed.
             </p>
             <p>
@@ -91,7 +91,7 @@ export default function RockinghamArea() {
                 12-week programme
               </Link>{" "}
               covers all three ranking pillars: GBP optimisation, on-page SEO,
-              and citation building — with weekly updates and monthly heatmap
+              and citation building, with weekly updates and monthly heatmap
               reports so you see your progress.
             </p>
           </div>
@@ -138,7 +138,7 @@ export default function RockinghamArea() {
                 },
                 {
                   title: "Review Strategy",
-                  desc: "We help you get more Google reviews the right way — making it easy for happy customers to leave feedback.",
+                  desc: "We help you get more Google reviews the right way, making it easy for happy customers to leave feedback.",
                 },
               ].map((item) => (
                 <div key={item.title} className="accent-card p-6">

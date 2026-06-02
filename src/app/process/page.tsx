@@ -60,7 +60,7 @@ export default function Process() {
             {[
               {
                 label: "Heatmap Ranking Snapshot",
-                desc: "We map your current ranking positions across your entire service area — not just one location, but a grid showing exactly where you rank and where you don't.",
+                desc: "We map your current ranking positions across your entire service area, not just one location, but a grid showing exactly where you rank and where you don't.",
               },
               {
                 label: "Competitor Analysis",
@@ -175,7 +175,7 @@ export default function Process() {
               </div>
               <p className="text-white/60 text-sm leading-relaxed mb-4 ml-16">
                 Your website reinforces your local relevance. Google
-                cross-references your GBP with your website — they need to
+                cross-references your GBP with your website. They need to
                 align:
               </p>
               <div className="ml-16 grid grid-cols-1 md:grid-cols-2 gap-3">
