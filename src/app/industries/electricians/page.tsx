@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
+import { Breadcrumb } from "@/components/Breadcrumb";
 
 export const metadata: Metadata = {
   title: "GBP Optimisation for Electricians | Mandurah, Rockingham & Perth",
@@ -44,6 +45,11 @@ const gbpMistakes = [
 export default function ElectriciansPage() {
   return (
     <>
+      <Breadcrumb items={[
+        { label: "Home", href: "/" },
+        { label: "Industries", href: "/industries" },
+        { label: "Electricians" },
+      ]} />
       {/* Hero */}
       <section className="relative text-white py-20 md:py-28 overflow-hidden">
         <Image

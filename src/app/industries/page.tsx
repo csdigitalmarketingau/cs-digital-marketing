@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
+import { Breadcrumb } from "@/components/Breadcrumb";
 
 export const metadata: Metadata = {
   title: "GBP Optimisation by Industry | Local SEO for Trades & Services",
@@ -67,6 +68,10 @@ const industries = [
 export default function Industries() {
   return (
     <>
+      <Breadcrumb items={[
+        { label: "Home", href: "/" },
+        { label: "Industries" },
+      ]} />
       {/* Hero */}
       <section className="relative text-white py-20 md:py-28 overflow-hidden">
         <Image

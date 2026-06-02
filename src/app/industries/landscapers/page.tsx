@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
+import { Breadcrumb } from "@/components/Breadcrumb";
 
 export const metadata: Metadata = {
   title: "GBP Optimisation for Landscapers | Mandurah, Rockingham & Perth",
@@ -44,6 +45,11 @@ const gbpMistakes = [
 export default function LandscapersPage() {
   return (
     <>
+      <Breadcrumb items={[
+        { label: "Home", href: "/" },
+        { label: "Industries", href: "/industries" },
+        { label: "Landscapers" },
+      ]} />
       {/* Hero */}
       <section className="relative text-white py-20 md:py-28 overflow-hidden">
         <Image src="/mandurah-aerial.jpg" alt="Aerial view of Mandurah, Western Australia" fill className="object-cover" priority />
