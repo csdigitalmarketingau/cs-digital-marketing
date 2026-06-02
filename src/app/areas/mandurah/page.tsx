@@ -288,7 +288,7 @@ export default function MandurahArea() {
       <section className="py-8 bg-[#f8f9fb]">
         <div className="max-w-4xl mx-auto px-6">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d53834.41!2d115.7217!3d-32.5269!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2a324a5e923e4d41%3A0x504f0b535df55d0!2sMandurah%20WA!5e0!3m2!1sen!2sau!4v1"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13455.5!2d115.7465!3d-32.5307!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2a324a5e923e4d41%3A0x504f0b535df55d0!2sMandurah%20WA%206210!5e0!3m2!1sen!2sau!4v1"
             width="100%"
             height="300"
             style={{ border: 0, borderRadius: "12px" }}
