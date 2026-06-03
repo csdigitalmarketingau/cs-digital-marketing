@@ -5,7 +5,7 @@ export function LocalBusinessJsonLd() {
     "@id": "https://csdigitalmarketing.au/#business",
     name: "CS Digital Marketing",
     description:
-      "Google Business Profile optimisation for local businesses in Mandurah, Rockingham, and Perth, Western Australia. Systematic 12-week programme to rank in the Google Map Pack.",
+      "Google Business Profile optimisation for local businesses in Mandurah, Rockingham, and Perth, Western Australia. A 12-week programme to rank in the Google Map Pack.",
     url: "https://csdigitalmarketing.au",
     telephone: "+61466498861",
     email: "coen@csdigitalmarketing.au",

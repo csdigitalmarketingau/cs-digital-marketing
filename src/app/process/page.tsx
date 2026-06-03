@@ -6,7 +6,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 export const metadata: Metadata = {
   title: "Our Process | How We Rank Local Businesses on Google",
   description:
-    "A data-driven, three-pillar approach to Google Business Profile optimisation. Learn how we help local businesses in Mandurah and Perth rank in the Google Map Pack.",
+    "A three-pillar approach to Google Business Profile optimisation. Learn how we help local businesses in Mandurah and Perth rank in the Google Map Pack.",
   alternates: {
     canonical: "https://csdigitalmarketing.au/process",
   },

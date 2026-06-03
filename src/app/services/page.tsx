@@ -96,7 +96,7 @@ export default function Services() {
     <>
       <FAQJsonLd faqs={faqs} />
       <ServiceJsonLd
-        name="Google Business Profile Optimisation — 12-Week Programme"
+        name="Google Business Profile Optimisation: 12-Week Programme"
         description="A structured 12-week programme covering GBP optimisation, on-page SEO, and citation building to rank local businesses in the Google Map Pack across Mandurah, Rockingham, and Perth."
         url="https://csdigitalmarketing.au/services"
       />

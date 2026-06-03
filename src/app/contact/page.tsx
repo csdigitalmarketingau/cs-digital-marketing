@@ -3,6 +3,7 @@
 import { useState } from "react";
 import type { FormEvent } from "react";
 import Image from "next/image";
+import { Breadcrumb } from "@/components/Breadcrumb";
 
 export default function Contact() {
   const [name, setName] = useState("");
@@ -56,6 +57,7 @@ export default function Contact() {
 
   return (
     <>
+      <Breadcrumb items={[{ label: "Home", href: "/" }, { label: "Contact" }]} />
       {/* Hero */}
       <section className="relative text-white py-20 md:py-28 overflow-hidden">
         <Image src="/mandurah-aerial.jpg" alt="Aerial view of Mandurah, Western Australia" fill className="object-cover" />
