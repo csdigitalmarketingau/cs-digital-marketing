@@ -143,7 +143,11 @@ export default function RockinghamArea() {
               . For Rockingham, we pay particular attention to the Baldivis
               and southern growth suburbs, where newer businesses often find
               it easier to rank quickly because the competition has not caught
-              up yet.
+              up yet. New businesses without a site yet can start with our{" "}
+              <Link href="/services/website-design" className="text-gold hover:underline font-medium">
+                website design
+              </Link>{" "}
+              and have the whole local presence built at once.
             </p>
           </div>
 
@@ -235,6 +239,10 @@ export default function RockinghamArea() {
                 {
                   title: "Review Strategy",
                   desc: "A direct review link and response templates so you can build Google reviews consistently. For Rockingham businesses in new-growth suburbs, building a review base quickly is one of the fastest ways to establish credibility.",
+                },
+                {
+                  title: "Website Design",
+                  desc: "Fast, mobile-first websites built for Rockingham and Baldivis businesses. Service and area pages, local schema, and a layout that turns visitors into calls. Ideal for new businesses that need a proper online home from day one.",
                 },
               ].map((item) => (
                 <div key={item.title} className="accent-card p-6">

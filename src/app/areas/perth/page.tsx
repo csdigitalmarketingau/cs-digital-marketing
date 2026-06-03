@@ -128,7 +128,11 @@ export default function PerthArea() {
               <Link href="/services" className="text-gold hover:underline font-medium">
                 12-week programme
               </Link>
-              .
+              . If your site is not pulling its weight, we also build{" "}
+              <Link href="/services/website-design" className="text-gold hover:underline font-medium">
+                websites
+              </Link>{" "}
+              designed for local search.
             </p>
           </div>
 
@@ -217,6 +221,10 @@ export default function PerthArea() {
                 {
                   title: "Competitive Intelligence",
                   desc: "We look at what your top Perth competitors are doing in the map pack. Categories they use, services they list, review counts and ratings, posting frequency. This tells us exactly what you need to match or beat them.",
+                },
+                {
+                  title: "Website Design",
+                  desc: "Fast, mobile-first websites built for Perth businesses, with service and area pages and local schema that back up your Google listing. In a competitive metro market, a site built for local search is a real edge.",
                 },
               ].map((item) => (
                 <div key={item.title} className="accent-card p-6">

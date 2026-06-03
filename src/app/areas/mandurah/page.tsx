@@ -143,7 +143,12 @@ export default function MandurahArea() {
               across 15+ Australian directories. For Mandurah businesses, we
               also know which local signals matter: the Peel region directories,
               the suburb-level keywords, and how Google reads location data for
-              businesses serving the area between Mandurah and Rockingham.
+              businesses serving the area between Mandurah and Rockingham. If you
+              need a website to go with it, we also handle{" "}
+              <Link href="/services/website-design" className="text-gold hover:underline font-medium">
+                website design
+              </Link>
+              .
             </p>
           </div>
 
@@ -231,6 +236,10 @@ export default function MandurahArea() {
                 {
                   title: "Review Strategy",
                   desc: "A simple review system that makes it easy for your customers to leave a Google review. We set up the direct link and response templates so you can build reviews consistently without chasing people.",
+                },
+                {
+                  title: "Website Design",
+                  desc: "Need a site to back up your listing? We build fast, mobile-first websites for Mandurah businesses with service and area pages and local schema built in, so your site supports your rankings instead of holding them back.",
                 },
               ].map((item) => (
                 <div key={item.title} className="accent-card p-6">
