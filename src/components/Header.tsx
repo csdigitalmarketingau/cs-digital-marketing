@@ -23,6 +23,7 @@ const nav: NavItem[] = [
       { href: "/services/citation-building", label: "Citation Building" },
       { href: "/services/on-page-seo", label: "On-Page SEO" },
       { href: "/services/review-management", label: "Review Management" },
+      { href: "/services/website-design", label: "Website Design" },
     ],
   },
   {

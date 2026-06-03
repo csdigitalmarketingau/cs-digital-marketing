@@ -174,6 +174,11 @@ export default function Services() {
                 desc: "A compliant system to generate consistent Google reviews and respond strategically to build trust.",
                 href: "/services/review-management",
               },
+              {
+                title: "Website Design",
+                desc: "Fast, SEO-ready websites built to back up your Google listing and turn visitors into customers.",
+                href: "/services/website-design",
+              },
             ].map((service) => (
               <Link key={service.title} href={service.href} className="accent-card p-6 block group">
                 <h3 className="font-semibold text-navy mb-2 group-hover:text-gold transition-colors">
