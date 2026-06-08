@@ -21,15 +21,14 @@ Bill to: [Client business name]
 
 Invoice #: [YYYY-001]
 Date: [date]
-Due: On receipt (deposit) / on launch (balance)
+Due: On receipt
 
 | Description | Amount |
 |-------------|--------|
 | Website build (design, build, copy, on-page SEO setup, contact form, first 12 months hosting) | $750.00 |
-| **Deposit due now (50%)** | **$375.00** |
-| Balance due on launch (50%) | $375.00 |
+| **Total due (no GST)** | **$750.00** |
 
-Total build: $750.00 (no GST)
+Payable in full to get started.
 
 **Payment — direct deposit:**
 Account name: [your name]
@@ -45,7 +44,6 @@ Thanks for your business. Reply to confirm and I'll get started.
 ---
 
 ## How to use it
-- Send the **deposit invoice** ($375) the moment they say yes, with your bank details. Get the deposit before you build.
-- Send the **balance invoice** ($375) when the site is ready to go live.
-- Keep invoice numbers sequential (2026-001, 2026-002...).
+- Send the **$750 invoice** the moment they say yes, with your bank details. Build starts on payment.
+- Keep invoice numbers sequential (the dashboard invoice generator handles this automatically).
 - Attach the Website Terms (see WEBSITE-TERMS.md) or send them together in the Welcome Pack.

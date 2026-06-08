@@ -1,22 +1,18 @@
-# Client Welcome Pack (Website Build)
-
-Send this to a client right after they say yes. It collects everything you need to start,
-sets the domain choice, and bundles payment + terms. One document, sent once, removes the
-back-and-forth. Replace [brackets] per client.
+# Welcome Pack
 
 ---
 
 ## Welcome to CS Digital Marketing
 
 Hi [Name], great to have you on board. Here's everything we need to get your website built.
-Once you've sent the bits below and the deposit's in, I'll have a first version back to you
-within about two weeks.
+Once you've sent the bits below and payment's in, I'll have a first version back to you
+within about a week.
 
 ### What happens next
-1. You send the details below + the deposit.
-2. I build your site (about 2 weeks).
+1. You send the details below + payment.
+2. I build your site (about a week).
 3. You review, we do up to two rounds of tweaks.
-4. We go live. Balance due on launch.
+4. We go live.
 
 ### 1. Your business details
 - Business name (exactly as you want it shown):
@@ -49,21 +45,6 @@ yourbusiness.com.au, yourbusinessmandurah.com.au, etc.
 Existing website or socials, examples of sites you like, anything specific you want:
 
 ### Payment
-Deposit of $375 (50%) to start. Direct deposit:
-Account name: [your name] | BSB: [bsb] | Account: [acct] | Reference: [client name]
-Balance of $375 on launch. Then $300/year from 12 months after launch for hosting and
-upkeep (cancel anytime before renewal).
-
-### Terms
-The build terms are attached (or below). Reply "agreed" to confirm and we're underway.
-
-Cheers,
-Coen
-CS Digital Marketing
-
----
-
-## Internal note
-Log the returned info in the dashboard against the client (Onboarding panel): domain choices,
-what assets you've received, deposit paid, terms accepted. That panel is your single source of
-truth for where each build is up to.
+$750 to get started, payable in full. The payment details are on your invoice (attached).
+After your first year, it's $300/year for hosting and upkeep, invoiced at renewal (cancel
+anytime before then).
