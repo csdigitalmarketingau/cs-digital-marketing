@@ -11,6 +11,25 @@ findings engine). Review Management has its own detailed SOP: see REVIEW-MANAGEM
   Review Management.** Local SEO is the umbrella; the other four are the levers.
 - Most clients see movement in 4-6 weeks. No lock-in.
 
+## Keyword coverage (one term guaranteed, many ranked)
+We guarantee ONE agreed term (the accountable promise), but the work targets a whole cluster.
+A GBP and website rank for a cluster of related searches, not a single phrase, and our standard
+levers ARE the multi-keyword strategy:
+- **Categories** - each one opens a different keyword set.
+- **Services** - each service listed is its own search term (e.g. "blocked drains", "hot water
+  repair", "gas fitting"). Build out 20-30 to widen the footprint.
+- **Service / area / industry pages** - one page per distinct intent; each ranks for its own
+  cluster.
+- **Blog** - the long-tail and informational engine ("how to", "best X in Y").
+
+So we don't optimise keyword-by-keyword. We build out the entities (services, areas, pages) and
+the cluster comes with it. Expanding the keyword footprint means MORE pages, content, and
+reviews over time, not a separate process. One page targets one primary intent plus close
+variants, so distinct, competitive head terms each need their own page.
+
+Sales framing: "We guarantee top 3 for your main term, and you'll also start showing for the
+dozens of related searches around it."
+
 ## The timeline (must match the website)
 | Phase | Weeks | Focus |
 |-------|-------|-------|
