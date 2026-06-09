@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Contact CS Digital Marketing | Free GBP Audit Mandurah, Rockingham & Perth",
+  title: "Contact | Free GBP Audit Mandurah, Rockingham & Perth",
   description:
     "Request a free Google Business Profile audit. Contact CS Digital Marketing in Mandurah for local SEO services across Mandurah, Rockingham, and Perth.",
   alternates: {

@@ -7,7 +7,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 export const metadata: Metadata = {
   title: "GBP Optimisation Services Mandurah, Rockingham & Perth",
   description:
-    "Google Business Profile optimisation for local businesses in Mandurah, Rockingham, and Perth. 12-week programme to get your business ranking in the Google Map Pack.",
+    "GBP optimisation for local businesses in Mandurah, Rockingham and Perth. A 12-week programme to get you ranking in the Google Map Pack.",
   alternates: {
     canonical: "https://csdigitalmarketing.au/services",
   },

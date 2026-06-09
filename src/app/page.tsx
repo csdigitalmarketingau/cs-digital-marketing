@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title:
     "Best Google Business Profile Optimisation Mandurah, Rockingham & Perth | CS Digital Marketing",
   description:
-    "Get your local business found on Google. CS Digital Marketing provides professional GBP optimisation in Mandurah, Rockingham, and Perth. Free audit available.",
+    "Get your local business found on Google. Professional GBP optimisation in Mandurah, Rockingham and Perth. Free audit available.",
   openGraph: {
     title:
       "Best Google Business Profile Optimisation Mandurah, Rockingham & Perth | CS Digital Marketing",

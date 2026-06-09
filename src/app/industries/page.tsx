@@ -6,7 +6,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 export const metadata: Metadata = {
   title: "GBP Optimisation by Industry | Local SEO for Trades & Services",
   description:
-    "Google Business Profile optimisation tailored to your industry. We work with plumbers, electricians, cleaners, landscapers, builders, and other local service businesses across Mandurah, Rockingham, and Perth.",
+    "GBP optimisation tailored to your trade. Plumbers, electricians, builders, cleaners, landscapers and more across Mandurah, Rockingham and Perth.",
   alternates: {
     canonical: "https://csdigitalmarketing.au/industries",
   },

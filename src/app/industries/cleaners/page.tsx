@@ -91,7 +91,7 @@ export default function CleanersPage() {
           </h2>
           <div className="space-y-4 text-gray-500 leading-relaxed">
             <p>
-              The cleaning industry has low barriers to entry. Anyone with a
+              The cleaning industry has low barriers to entry. Anyone with an
               ABN and a bucket can list themselves on Google. That means your
               map pack is crowded with competitors, many of whom undercut on
               price. The businesses that win are not always the cheapest. They
