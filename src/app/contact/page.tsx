@@ -4,6 +4,7 @@ import { useState } from "react";
 import type { FormEvent } from "react";
 import Image from "next/image";
 import { Breadcrumb } from "@/components/Breadcrumb";
+import { submitLead } from "./actions";
 
 export default function Contact() {
   const [name, setName] = useState("");
@@ -20,27 +21,8 @@ export default function Contact() {
     setStatus("sending");
 
     try {
-      const response = await fetch(
-        "https://formsubmit.co/ajax/coen@csdigitalmarketing.au",
-        {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-            Accept: "application/json",
-          },
-          body: JSON.stringify({
-            name,
-            email,
-            phone,
-            business,
-            message,
-            _subject: `Free GBP Audit Request - ${business || name}`,
-            _template: "table",
-          }),
-        }
-      );
-
-      if (response.ok) {
+      const result = await submitLead({ name, email, phone, business, message });
+      if (result.ok) {
         setStatus("sent");
         setName("");
         setEmail("");
