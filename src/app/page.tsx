@@ -293,6 +293,45 @@ export default function Home() {
         </div>
       </section>
 
+      {/* ======= TESTIMONIAL ======= */}
+      <section className="py-20 md:py-28 bg-[#f8f9fb]">
+        <div className="max-w-3xl mx-auto px-6 text-center">
+          <span className="text-gold text-xs font-semibold uppercase tracking-widest">Client Results</span>
+          <h2 className="text-3xl md:text-4xl font-bold text-navy mt-3 mb-10 tracking-tight section-divider">
+            From New Listing to #1
+          </h2>
+          <div className="bg-white border border-gray-100 rounded-2xl p-8 md:p-10 shadow-sm">
+            <div className="flex justify-center gap-1 mb-5">
+              {[0, 1, 2, 3, 4].map((i) => (
+                <svg key={i} className="w-5 h-5 text-gold" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
+                </svg>
+              ))}
+            </div>
+            <blockquote className="text-lg md:text-xl text-navy leading-relaxed">
+              &ldquo;Coen has improved my business visibility immensely, moving me into the top
+              spot for my local area in a matter of days. The process was seamless, with minimal
+              time required from me. The improvements to my website made so much sense, and
+              I&apos;m shocked that after 6 years in business I took this long to get help! I
+              highly recommend CS Digital Marketing if you want to get your business seen easily
+              and, in turn, attract more clients.&rdquo;
+            </blockquote>
+            <div className="mt-6">
+              <div className="font-semibold text-navy">Shanda Lodge</div>
+              <div className="text-sm text-gray-500">
+                Gathered by Shanda, Marriage Celebrant in Mandurah
+              </div>
+            </div>
+            <div className="mt-6 inline-flex items-center gap-2 bg-gold/10 text-gold border border-gold/20 rounded-full px-4 py-1.5 text-sm font-medium">
+              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
+                <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 18L9 11.25l4.306 4.307a11.95 11.95 0 015.814-5.519l2.74-1.22m0 0l-5.94-2.28m5.94 2.28l-2.28 5.941" />
+              </svg>
+              Ranked #1 for &ldquo;marriage celebrant Mandurah&rdquo; in days
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* ======= CTA ======= */}
       <section className="hero-gradient py-20 md:py-24 relative">
         <div className="max-w-3xl mx-auto px-6 text-center relative z-10">
