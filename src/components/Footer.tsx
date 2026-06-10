@@ -120,8 +120,11 @@ export function Footer() {
           <FooterColumn title="Company" links={companyLinks} />
         </div>
 
-        <div className="border-t border-white/10 mt-10 pt-6 text-xs text-center">
-          &copy; {year} CS Digital Marketing. All rights reserved.
+        <div className="border-t border-white/10 mt-10 pt-6 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-center">
+          <span>&copy; {year} CS Digital Marketing. All rights reserved.</span>
+          <Link href="/privacy" className="hover:text-gold transition-colors">
+            Privacy Policy
+          </Link>
         </div>
       </div>
     </footer>
