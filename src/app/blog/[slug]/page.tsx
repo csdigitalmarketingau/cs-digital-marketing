@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Breadcrumb } from "@/components/Breadcrumb";
-import { getPostSlugs, type PostMeta } from "@/lib/blog";
+import { getPostSlugs, getAllPosts, type PostMeta } from "@/lib/blog";
 
 export function generateStaticParams() {
   return getPostSlugs().map((slug) => ({ slug }));
@@ -55,6 +55,8 @@ export default async function BlogPost({
   const loaded = await loadPost(slug);
   if (!loaded) notFound();
   const { Post, meta } = loaded;
+
+  const related = (await getAllPosts()).filter((p) => p.slug !== slug).slice(0, 3);
 
   const schema = {
     "@context": "https://schema.org",
@@ -135,6 +137,26 @@ export default async function BlogPost({
               </svg>
             </Link>
           </div>
+          {/* Related posts — internal links between articles */}
+          {related.length > 0 && (
+            <aside className="mt-12">
+              <h2 className="text-sm font-semibold text-gray-400 uppercase tracking-widest mb-4">
+                More from the blog
+              </h2>
+              <div className="space-y-3">
+                {related.map((p) => (
+                  <Link
+                    key={p.slug}
+                    href={`/blog/${p.slug}`}
+                    className="block border border-gray-100 rounded-xl p-4 hover:border-gold/40 hover:shadow-sm transition-all"
+                  >
+                    <span className="text-sm font-semibold text-navy">{p.title}</span>
+                    <p className="text-sm text-gray-500 mt-1">{p.excerpt}</p>
+                  </Link>
+                ))}
+              </div>
+            </aside>
+          )}
         </div>
       </article>
     </>
