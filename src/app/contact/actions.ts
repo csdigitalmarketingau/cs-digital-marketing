@@ -37,7 +37,7 @@ export async function submitLead(
   const anon = process.env.SUPABASE_ANON_KEY;
   if (url && anon) {
     try {
-      await fetch(`${url}/rest/v1/website_leads`, {
+      const res = await fetch(`${url}/rest/v1/website_leads`, {
         method: "POST",
         headers: {
           apikey: anon,
@@ -54,6 +54,11 @@ export async function submitLead(
           source: "website",
         }),
       });
+      // fetch only throws on network failure; a 401/RLS/missing-column rejection
+      // returns a non-2xx that would otherwise silently drop the lead.
+      if (!res.ok) {
+        console.error("Supabase lead insert rejected:", res.status, await res.text());
+      }
     } catch (err) {
       console.error("Supabase lead insert failed:", err);
     }

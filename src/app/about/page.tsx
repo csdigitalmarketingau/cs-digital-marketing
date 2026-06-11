@@ -4,7 +4,7 @@ import Link from "next/link";
 import { Breadcrumb } from "@/components/Breadcrumb";
 
 export const metadata: Metadata = {
-  title: "About CS Digital Marketing | GBP Specialists Mandurah",
+  title: "About | GBP Specialists Mandurah",
   description:
     "CS Digital Marketing is a local SEO agency based in Mandurah, WA. Founded by Coen Stewart, we specialise in Google Business Profile optimisation for local businesses across Mandurah, Rockingham, and Perth.",
   alternates: {

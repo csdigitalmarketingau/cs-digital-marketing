@@ -1,3 +1,9 @@
+> **SUPERSEDED / HISTORICAL (2026-06-11).** This early plan is kept for context only. Do NOT execute Phase 6 as written: it conflicts with current compliance rules.
+> - **No `/results` case-study page** — social proof lives on the homepage (no dedicated Results page).
+> - **No `AggregateRating` / Review schema** anywhere on our own site — Google bans self-serving review rich snippets (manual-action risk).
+> - **No "Data-Driven Results" badge** — "data-driven" is a banned phrase in the WEBSITE-BUILD-SOP voice rules.
+> Current source of truth: the SOPs in `docs/` and `client-site-template/docs/CLIENT-SEO-LAUNCH-CHECKLIST.md`.
+
 # CSDM SEO Ranking Plan
 
 ## Current Position
