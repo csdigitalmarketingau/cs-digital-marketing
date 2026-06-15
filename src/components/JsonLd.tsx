@@ -47,6 +47,12 @@ export function LocalBusinessJsonLd() {
       "@type": "Person",
       name: "Coen Stewart",
     },
+    // Official profiles, so Google binds the entity to the right socials and
+    // stops associating similarly-named businesses with the panel.
+    sameAs: [
+      "https://www.linkedin.com/company/118444276/",
+      "https://www.facebook.com/people/CS-Digital-Marketing/61590395522340/",
+    ],
   };
 
   return (
