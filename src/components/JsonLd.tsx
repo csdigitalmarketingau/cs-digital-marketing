@@ -50,7 +50,7 @@ export function LocalBusinessJsonLd() {
     // Official profiles, so Google binds the entity to the right socials and
     // stops associating similarly-named businesses with the panel.
     sameAs: [
-      "https://www.linkedin.com/company/118444276/",
+      "https://www.linkedin.com/company/cs-digital-marketing-au/",
       "https://www.facebook.com/people/CS-Digital-Marketing/61590395522340/",
     ],
   };
