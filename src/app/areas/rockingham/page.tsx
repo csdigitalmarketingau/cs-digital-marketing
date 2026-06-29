@@ -61,7 +61,7 @@ export default function RockinghamArea() {
     <>
       <Breadcrumb items={[
         { label: "Home", href: "/" },
-        { label: "Areas" },
+        { label: "Areas", href: "/areas" },
         { label: "Rockingham" },
       ]} />
       <FAQJsonLd faqs={faqs} />

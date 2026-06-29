@@ -61,7 +61,7 @@ export default function PerthArea() {
     <>
       <Breadcrumb items={[
         { label: "Home", href: "/" },
-        { label: "Areas" },
+        { label: "Areas", href: "/areas" },
         { label: "Perth" },
       ]} />
       <FAQJsonLd faqs={faqs} />

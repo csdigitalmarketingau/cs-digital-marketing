@@ -61,7 +61,7 @@ export default function MandurahArea() {
     <>
       <Breadcrumb items={[
         { label: "Home", href: "/" },
-        { label: "Areas" },
+        { label: "Areas", href: "/areas" },
         { label: "Mandurah" },
       ]} />
       <FAQJsonLd faqs={faqs} />
